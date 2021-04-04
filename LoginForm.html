@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Mall's Name | Description</title>
+        <meta charset="UTF-8">
+        <meta name="authors" content="Group 8">
+        <meta name="description" content="#">
+        <meta property="og:title" content="#">
+        <meta property="og:type" content="#">
+        <meta property="og:url" content="#">
+        <meta property="og:image" content="#">
+        <meta property="og:title" content="#">
+        <meta property="og:description" content="#">
+        <link rel="stylesheet" href="LoginForm.css">
+        <script src="https://kit.fontawesome.com/5143a5dc4e.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!--Making the container - Tạo phần bao bọc toàn bộ website-->
+        <div id="container" class="site-container">
+            <header>
+                <div class="topheader">
+                    <div id="logoimg"><img src="download.png"></div>
+                    <div id="search">
+                        <form>
+                            <input type="text" placeholder="Search">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div><!--Search-->
+                </div><!--Top Header-->
+                <nav>
+                    <a href="index.html" class="active">
+                        <i class="fas fa-home"></i>
+                    </a>
+                    <div class="dropdown">
+                        <button class="dropbtn">Shops By</button><!--Replacing "Browse" by "Shops By"-->
+                        <div class="dropdown-content">
+                            <a href="Brands.html">Brands</a>
+                            <a href="Category.html">Category</a>
+                        </div><!--Shops By (Dropdown)-->
+                    </div>
+                    <a href="Fees.html" target="_self">Fees</a> 
+                    <a href="FAQs.html" target="_self">FAQs</a>  
+                    <div class="dropdown">
+                        <button class="dropbtn">About Us</button>
+                        <div class="dropdown-content">
+                            <a href="Origin.html">The Mall</a>
+                            <a href="Members.html"> The Members</a>
+                        </div>
+                    </div><!--About Us (Dropdown)-->
+                    <a href="#">Contact</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">Account
+                            <i class="fas fa-user"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="LoginForm.html">Login</a>
+                            <a href="#">Join our family</a>
+                        </div>
+                    </div><!--Account (Dropdown)-->
+                </nav>
+            </header>
+            <div class="content">
+                <div class="login">
+                    <img src="dsBuffer.bmp.png" alt="User Login" class="avt">
+                    <h1>Login</h1>
+                    <form>
+                        <p>Username</p>
+                        <input type="text" name="username" placeholder="Username">
+                        <p id="p2">Password</p>
+                        <input type="password" name="password" placeholder="Password">
+                        <button type="submit" value="Login">Login</button><br>
+                        <div class="forgot">
+                            <a href="#">Forgot your password?</a><br>
+                            <a href="#">Don't have an account? Join our family</a>
+                        </div><!--Forgot-->
+                    </form>
+                </div><!--Login-->
+            </div>
+            <footer>
+                Hello
+            </footer>
+        </div><!--Container-->
+    </body>
+</html>
