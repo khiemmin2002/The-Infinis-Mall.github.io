@@ -27,9 +27,9 @@ body {
 
 /* Top Header */
 .topheader {
-    height: 145px;
-    background-color: #ffffff;
-    padding: 14px 16px;
+    position: static;
+    height: 190px;
+    background-color: #000;
     overflow: hidden;
 }
 
@@ -37,21 +37,23 @@ body {
     float: left;
 }
 
-#search {
+.topheader #search {
     float: right;
-    padding: 80px 30px 0 0;
+    position: absolute;
+    top: 140px;
+    right: 50px;
 }
 
 #search form {
-    background: #f0f0f0;
+    background: #f5f3f3;
     padding: 5px 10px;
 }
 
-#search input[type=text], #search input:focus  {
+#search input[type=text], input:focus  {
     font-size: 16px;
     border: none;
     padding-right: 0;
-    background: #f0f0f0;
+    background: #f5f3f3;
     color: #807f7f;
     outline: none;
 }
@@ -62,7 +64,7 @@ body {
   
 #search button, #search button:focus {
     padding: 3px 0 0 6px;
-    background: #f0f0f0;
+    background: #f5f3f3;
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -73,7 +75,7 @@ body {
 /* Menu */
 nav {
     overflow: hidden;
-    background-color: #b3965a;
+    background-color: #bda069;
     width: 100%;
 }
 
@@ -105,14 +107,14 @@ nav a {
 }
   
 nav a:hover, .dropdown:hover .dropbtn {
-    background-color: #f1f1f1;
-    color: #b3965a;
+    background-color: #f5f3f3;
+    color: #bda069;
 }
   
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #b3965a;
+    background-color: #bda069;
     min-width: 145px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -120,7 +122,7 @@ nav a:hover, .dropdown:hover .dropbtn {
   
 .dropdown-content a {
     float: none;
-    color: #f1f1f1;
+    color: #f5f3f3;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -128,7 +130,7 @@ nav a:hover, .dropdown:hover .dropbtn {
   }
   
 .dropdown-content a:hover {
-    background-color: #f1f1f1;
+    background-color: #f5f3f3;
   }
   
 .dropdown:hover .dropdown-content {
@@ -136,16 +138,16 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 /* Setting active for website */
-.active {
-    background-color: #f1f1f1;
-    color: #b3965a;
+.dropdown .active, .button .active {
+    background-color: #f5f3f3;
+    color: #bda069;
 }
 
 /* Setting the content */
 .content {
     overflow: hidden;
     background-color: rgb(233, 222, 222);
-    background-image: url(safdie-architects-marina-bay-sands-fourth-tower-singapore_dezeen_2364_hero.jpg);
+    background-image: url(img/hours-hero-first_card.jpg);
     background-size: cover;
     background-position: center;
     height: 850px;
