@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Contact Form</title>	
+	</head>
+	
+	<body>
+		<h1>Contact Form</h1>
+		<form method="get" action="index.html">
+
+            <div class="form-row">
+                <div class="form-label">
+                  <label for="purpose">Purpose of Contact</label>
+                </div>
+                <div class="form-field">
+                  <select id="purpose" name="purpose">
+                    <option value="business">Business</option>
+                    <option value="personal">Personal</option>
+                  </select>
+                </div>
+              </div>
+
+            <br>
+            <div class="form-row">
+                <div class="form-label">
+                  <label for="name">Name</label>
+                </div>
+                <div class="form-field">
+                  <input required id="name" type="text" name="name" maxlength="50">
+                </div>
+              </div>
+
+              <br>
+            <div class="form-row">
+                <div class="form-label">
+                  <label for="email">Email Address</label>
+                </div>
+                <div class="form-field">
+                  <input required id="email" type="text" name="email" maxlength="50">
+                </div>
+              </div>
+
+              <br>
+              <div class="form-row">
+                  <div class="form-label">
+                    <label for="phone">Phone Number</label>
+                  </div>
+                  <div class="form-field">
+                    <input required id="phone" type="tel" name="phone" placeholder="1234-567-890" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}"required>
+                  </div>
+                </div>
+
+              <div>
+				<br>
+				<label>Preferred Contact Methor</label><br>
+				<input type="radio" id="phone" name="method" value="phone">
+				<label for="phone">Phone</label>
+				<input type="radio" id="email" name="method" value="email">
+				<label for="email">Email</label>
+			</div>
+			
+			<div>
+				<br>
+				<label>Contact Days</label><br>
+				<input type="checkbox" name="seeks[]" value="mon" />Monday
+				<br><input type="checkbox" name="seeks[]" value="tue" />Tuesday
+				<br><input type="checkbox" name="seeks[]" value="wed" />Wednesday
+				<br><input type="checkbox" name="seeks[]" value="thu" />Thursday
+				<br><input type="checkbox" name="seeks[]" value="fri" />Friday
+				<br><input type="checkbox" name="seeks[]" value="sat" />Saturday
+				<br><input type="checkbox" name="seeks[]" value="sun" />Sunday
+			</div>
+
+            <br>
+              <div class="form-row">
+                <div class="form-label">
+                  <label for="message">Your Message</label>
+                </div>
+                <div class="form-field">
+                  <textarea cols="40" rows="10" required id="message" name="message"></textarea>
+                </div>
+              </div>
+
+              <br>
+              <div class="form-row">
+                <input type="reset" value="Clear">
+                <input type="submit" value="Send">
+              </div>
+		</form>
+	</body>
+</html>	
