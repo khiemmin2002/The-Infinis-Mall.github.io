@@ -1,25 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-VN">
     <head>
-        <title>The Infinis Mall | The Biggest Shopping Mall In Vietnam</title>
+        <title>Infinis Mall | The biggest shopping center in Vietnam</title>
         <meta charset="UTF-8">
         <meta name="authors" content="Group 8">
-        <meta name="description" content="#">
+        <meta name="description" content="shopping mall">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta property="og:title" content="#">
         <meta property="og:type" content="#">
         <meta property="og:url" content="#">
         <meta property="og:image" content="#">
         <meta property="og:title" content="#">
         <meta property="og:description" content="#">
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" type="text/css" href="index.css" media="screen">
         <script src="https://kit.fontawesome.com/5143a5dc4e.js" crossorigin="anonymous"></script>
     </head>
+
     <body>
-        <!--Making the container - Tạo phần bao bọc toàn bộ website-->
+        <!--Making the container-->
         <div id="container" class="site-container">
             <header>
                 <div class="topheader">
-                    <div id="logoimg"><img src="img/TheInifis.png"></div>
+                    <div id="logo-img"><img src="images/TheInifis.png"></div>
                     <div id="search">
                         <form>
                             <input type="text" placeholder="Search">
@@ -32,10 +34,10 @@
                         <i class="fas fa-home"></i>
                     </a>
                     <div class="dropdown">
-                        <button class="dropbtn">Shops By</button><!--Replacing "Browse" by "Shops By"-->
-                        <div class="dropdown-content">
+                        <button class="dropbtn">Browse by</button>
+                        <div class="dropdown-content" id="special">
                             <a href="Brands.html">Brands</a>
-                            <a href="Category.html">Category</a>
+                            <a href="Categories.html">Categories</a>
                         </div><!--Shops By (Dropdown)-->
                     </div>
                     <a href="Fees.html" target="_self">Fees</a> 
@@ -43,8 +45,8 @@
                     <div class="dropdown">
                         <button class="dropbtn">About Us</button>
                         <div class="dropdown-content">
-                            <a href="Origin.html">The Mall</a>
-                            <a href="Members.html"> The Members</a>
+                            <a href="About.html">The Mall</a>
+                            <a href="Members.html">Our Members</a>
                         </div>
                     </div><!--About Us (Dropdown)-->
                     <a href="#">Contact</a>
@@ -53,13 +55,83 @@
                             <i class="fas fa-user"></i>
                         </button>
                         <div class="dropdown-content">
-                            <a href="LoginForm.html">Login</a>
+                            <a href="Login.html">Login</a>
                             <a href="#">Join our family</a>
                         </div>
                     </div><!--Account (Dropdown)-->
                 </nav>
             </header>
-            <div class="content">
+            <div class="main">
+                <div class="featured">
+                    <h1>featured stores</h1>
+                </div>
+                <div class="featured-stores">
+                    <div class="store">
+                        <img class="brand" src="images/apple.jpg">
+                        <div class="overlay">
+                            <a>Check it out!</a>
+                        </div>
+                    </div>
+                    <div class="store">
+                        <img class="brand" src="images/leicester.jpg">
+                        <div class="overlay">
+                            <a>Check it out!</a>
+                        </div>
+                    </div>
+                    <div class="store">
+                        <img class="brand" src="images/balenciaga.jpg">
+                        <div class="overlay">
+                            <a>Check it out!</a>
+                        </div>
+                    </div>
+                    <div class="store"> 
+                        <img class="brand" src="images/NBA.jpg">
+                        <div class="overlay">   
+                            <a>Check it out!</a>
+                        </div>
+                    </div>
+                    <div class="store">
+                        <img class="brand" src="images/din-tai-fung.jpg">
+                        <div class="overlay">
+                            <a>Check it out!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="new">
+                    <h1>new stores</h1>
+                </div>
+                <div class="new-stores">
+                    <div class="store">
+                        <img class="brand" src="images/microsoft.jpg">
+                        <div class="overlay">
+                            <a>Check it out!</a>
+                        </div>
+                    </div>
+                    <div class="store">
+                        <img class="brand" src="images/rolex.png">
+                        <div class="overlay">
+                            <a>Check it out!</a>
+                        </div>
+                    </div>
+                    <div class="store">
+                        <img class="brand" src="images/LV.png">
+                        <div class="overlay">
+                            <a>Check it out!</a>
+                        </div>
+                    </div>
+                    <div class="store"> 
+                        <img class="brand" src="images/starbucks.png">
+                        <div class="overlay">   
+                            <a>Check it out!</a>
+                        </div>
+                    </div>
+                    <div class="store">
+                        <img class="brand" src="images/hublot.jpeg">
+                        <div class="overlay">
+                            <a>Check it out!</a>
+                        </div>
+                    </div>
+                </div>
             </div>
             <footer>
                 Hello

@@ -20,8 +20,9 @@ html, body {
     margin: 0;
 }
 
-/* Top Header */
+/* Setting the header */
 
+/* Top Header */
 .topheader {
     position: static;
     height: 190px;
@@ -165,110 +166,130 @@ nav a:hover, .dropdown:hover .dropbtn {
     display: block;
 }
 
-/* Setting active for the current page */
+/* Setting active status for the current page */
 .active {
     background-color: dodgerblue;
     color: white;
 }
 
 #special {
-    width: 145px;
+    width: 147px;
 }
 
-.featured-stores {
-    background-color: #355c7d;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
+/* Setting up the content div */
+.content {
+    overflow: hidden;
+    background-color: rgb(233, 222, 222);
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 850px;
 }
 
-.featured {
-    background-color: #355c7d;
-}
-
-.new-stores {
-    background-color: #323232;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-}
-
-.new {
-    background-color: #323232;
-}
-
-.store {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    font-size: 20px;
-    margin: 20px;
-    height: 300px;
-    width: 300px;
-    border: 7px solid;
-    border-image: linear-gradient(45deg, red, limegreen, gold, dodgerblue, darkorange, navy);
-    border-image-slice: 1;
-    transition: 0.5s ease;
-}
-
-
-
-.brand {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    transition: 0.5s ease;
-}
-
-.overlay {
-    opacity: 0;
+/* Setting up the log in form */
+.login {
+    width: 320px;
+    height: 420px;
+    background-color: #b3965a;
+    color: #f1f1f1;
+    top: 15%;
+    left: 27%;
     position: absolute;
-    margin-left: 30px;
-    text-align: center;
-    color: white;
-    font-size: 16px;
-    font-weight: 600;
-    background-color: limegreen;
-    border: none;
-    padding: 14px 28px;
-    transition: 0.5s ease;
+    transform: translate(50%,50%);
+    padding: 70px 30px;
 }
 
-.store:hover {
-transform: translateY(-25px);
+.login .avt {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
 }
 
-.store:hover .brand {
-    opacity: 35%;
-}
-
-.store:hover .overlay {
-    opacity: 100%;
-}
-
-h1 {
-    font-size: 40px;
-    text-transform: uppercase;
-    color: gold;
-    text-align: center;
-    text-decoration: underline solid;
-    padding: 10px;
+.login h1 {
     margin: 0;
-    margin-top: 10px;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.login p {
+    margin: 0 0 5px 0;
+    padding: 0;
+    font-weight: 700;
+}
+
+.login #p2 {
+    margin-top: 20px;
+}
+
+.login input {
+    width: 100%;
+    padding: 20px 5px;
+}
+
+.login input[type="text"], .login input[type="password"] {
+    border: none;
+    background-color: #f1f1f1;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    transition: 0.25s;
+}
+
+.login input[type="text"]:focus, .login input[type="password"]:focus {
+    background-color: lightblue;
+    transform: scaleX(1.1);
+    
+}
+
+.login button {
+    width: 140px;
+    border: 2px solid #f1f1f1;
+    border-radius: 22px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    outline: none;
+    height: 40px;
+    color: #b3965a;
+    background-color: white;
+    font-weight: 700;
+    font-size: 18px;
+    position: relative;
+    top: 10px;
+    left: 23%;
+    transition: 0.5s;
+}
+
+.login button:hover {
+    background-color: lightblue;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.3, 1.3);
+}
+
+.login .forgot {
+    position: relative;
+    top: 25px;
+}
+
+.login .forgot a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+}
+
+.login .forgot a:hover {
+    text-decoration: underline rgb(221, 219, 204);
 }
 
 footer {
     overflow: hidden;
     background-color: black;
     color: white;
-    height: 200px;
-}
-
-.main {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    height: 350px;
 }

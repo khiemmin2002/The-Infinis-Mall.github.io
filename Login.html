@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-VN">
+    <head>
+        <title>Infinis Mall | The biggest shopping center in Vietnam</title>
+        <meta charset="UTF-8">
+        <meta name="authors" content="Group 8">
+        <meta name="description" content="shopping mall">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:title" content="#">
+        <meta property="og:type" content="#">
+        <meta property="og:url" content="#">
+        <meta property="og:image" content="#">
+        <meta property="og:description" content="#">
+        <link rel="stylesheet" href="Login.css">
+        <script src="https://kit.fontawesome.com/5143a5dc4e.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <!--Making the container - Tạo phần bao bọc toàn bộ website-->
+        <div id="container" class="site-container">
+            <header>
+                <div class="topheader">
+                    <div id="logo-img"><img src="images/TheInifis.png"></div>
+                    <div id="search">
+                        <form>
+                            <input type="text" placeholder="Search">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div><!--Search-->
+                </div><!--Top Header-->
+                <nav>
+                    <a href="index.html">
+                        <i class="fas fa-home"></i>
+                    </a>
+                    <div class="dropdown">
+                        <button class="dropbtn">Browse By</button>
+                        <div class="dropdown-content" id="special">
+                            <a href="Brands.html">Brands</a>
+                            <a href="Categories.html">Categories</a>
+                        </div><!--Shops By (Dropdown)-->
+                    </div>
+                    <a href="Fees.html" target="_self">Fees</a> 
+                    <a href="FAQs.html" target="_self">FAQs</a>  
+                    <div class="dropdown">
+                        <button class="dropbtn">About Us</button>
+                        <div class="dropdown-content">
+                            <a href="Origin.html">The Mall</a>
+                            <a href="Members.html"> The Members</a>
+                        </div>
+                    </div><!--About Us (Dropdown)-->
+                    <a href="#">Contact</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">Account
+                            <i class="fas fa-user"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="Login.html" class="active">Login</a>
+                            <a href="#">Join our family</a>
+                        </div>
+                    </div><!--Account (Dropdown)-->
+                </nav>
+            </header>
+            <div class="content">
+                <div class="login">
+                    <img src="images/user-icon.png" alt="User Login" class="avt">
+                    <h1>Login</h1>
+                    <form action="landing.html" method="GET" enctype="text/plain">
+                        <p>Username</p>
+                        <input required type="text" name="username" placeholder="Username">
+                        <p id="p2">Password</p>
+                        <input required type="password" name="password" placeholder="Password">
+                        <button class="login_button" type="submit" value="Login">Login</button><br>
+                        <div class="forgot">
+                            <a href="#">Forgot your password?</a><br>
+                            <a href="#">Don't have an account? Join our family!</a>
+                        </div><!--Forgot-->
+                    </form>
+                </div><!--Login-->
+            </div>
+            <footer>
+                Hello
+            </footer>
+        </div><!--Container-->
+    </body>
+</html>
