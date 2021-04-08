@@ -287,9 +287,125 @@ nav a:hover, .dropdown:hover .dropbtn {
     text-decoration: underline rgb(221, 219, 204);
 }
 
+/* Setting the footer */
 footer {
     overflow: hidden;
-    background-color: black;
-    color: white;
-    height: 350px;
+    background-color: #333;
+    color: #ffffff;
+    height: 320px;
+}
+
+/* Setting the grid */
+footer .grid-contain {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 20px;
+    grid-template-columns: 300px auto 500px;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+/* Grid 1 */
+footer .grid-contain .grid-item-1 {
+    text-align: center;
+    position: relative;
+}
+
+footer .grid-contain .grid-item-1 .item1content {
+    position: absolute;
+    top: 94px;
+    left: 94px;
+}
+
+footer .grid-contain .grid-item-1 p {
+    margin: 0;
+    line-height: 20px;
+}
+
+footer .grid-contain .grid-item-1 a {
+    text-decoration: none;
+    color: #f5f3f3;
+    font-size: 20px;
+}
+
+footer .grid-contain .grid-item-1 a:hover {
+    text-decoration: underline;
+}
+
+/* Grid 2 */
+footer .grid-contain .grid-item-2 {
+    position: relative;
+}
+
+footer .grid-contain .grid-item-2 .gridimg{
+    position: absolute;
+    top: 26px;
+    left: 123px;
+}
+
+/* Grid 3 */
+footer .grid-contain .grid-item-3 h3 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+footer .grid-contain .grid-item-3 p {
+    text-align: left;
+    margin: 0;
+    font-size: 16px;
+}
+
+footer .grid-contain .grid-item-3 .item3content {
+    margin-left: 3.5em;
+}
+
+footer .grid-contain .grid-item-3 #detail1 {
+    text-indent: 27px;
+}
+
+footer .grid-contain .grid-item-3 .address .fas {
+    margin-right: 10px;
+}
+
+footer .grid-contain .grid-item-3 .address #detail2 .fas {
+    margin-right: 10px;
+}
+
+footer .grid-contain .grid-item-3 #detail2 {
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer ul {
+    display: flex;
+    padding: 0;
+    margin-left: 160px;
+    margin-top: 20px;
+}
+
+footer ul li {
+    display: block;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    list-style: none;
+    font-size: 45px;
+    text-align: center;
+    cursor: pointer;
+}
+
+footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer .copyright {
+    text-align: center;
+    font-size: 18px;
+}
+
+footer .copyright p {
+    margin-top: 0;
 }
