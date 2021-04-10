@@ -261,7 +261,6 @@ h1 {
 .term-content .term-body {
     padding: 20px;
     background: #ffffff;
-    height: 2000;
     border: 1px solid #d4d0d0;
     font-family: 'Roboto';
     text-align: justify;
@@ -273,6 +272,18 @@ h1 {
 
 .term-content .term-body h3:first-of-type {
     margin-top: 0;
+}
+
+.term-content .term-body a {
+    text-decoration: none;
+}
+
+.term-content .term-body a:hover {
+    text-decoration: underline;
+}
+
+.term-content .term-body a:visited {
+    text-decoration: underline;
 }
 
 .addressreg {
