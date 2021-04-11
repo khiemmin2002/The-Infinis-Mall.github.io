@@ -1,9 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-VN">
 	<head>
 		<meta charset="utf-8">
-		<title>Contact Form</title>	
+    <meta name="authors" content="Group 8">
+    <meta name="description" content="shopping mall">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="#">
+    <meta property="og:type" content="#">
+    <meta property="og:url" content="#">
+    <meta property="og:image" content="#">
+    <meta property="og:description" content="#">
+    <link rel="stylesheet" href="Contact.css">
+    <script src="https://kit.fontawesome.com/5143a5dc4e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+		<title>Infinis Mall | The biggest shopping center in Vietnam</title>
 	</head>
+	
+	<body>
+    <!--Making the container-->
+    <div id="container" class="site-container">
+      <header>
+          <div class="topheader">
+              <div id="logo-img"><img src="images/TheInifis.png"></div>
+              <div id="search">
+                  <form>
+                      <input type="text" placeholder="Search">
+                      <button type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+              </div><!--Search-->
+          </div><!--Top Header-->
+          <nav>
+              <a href="index.html" class="active">
+                  <i class="fas fa-home"></i>
+              </a>
+              <div class="dropdown">
+                  <button class="dropbtn">Browse by</button>
+                  <div class="dropdown-content" id="special">
+                      <a href="Brands.html">Brands</a>
+                      <a href="Categories.html">Categories</a>
+                  </div><!--Shops By (Dropdown)-->
+              </div>
+              <a href="Fees.html" target="_self">Fees</a> 
+              <a href="FAQs.html" target="_self">FAQs</a>  
+              <div class="dropdown">
+                  <button class="dropbtn">About Us</button>
+                  <div class="dropdown-content">
+                      <a href="About.html">The Mall</a>
+                      <a href="Members.html">Our Members</a>
+                  </div>
+              </div><!--About Us (Dropdown)-->
+              <a href="#">Contact</a>
+              <div class="dropdown">
+                  <button class="dropbtn">Account
+                      <i class="fas fa-user"></i>
+                  </button>
+                  <div class="dropdown-content">
+                      <a href="Login.html">Login</a>
+                      <a href="#">Join our family</a>
+                  </div>
+              </div><!--Account (Dropdown)-->
+          </nav>
+      </header>
 	
 	<body>
 		<h1>Contact Form</h1>
@@ -87,6 +147,37 @@
                 <input type="reset" value="Clear">
                 <input type="submit" value="Send">
               </div>
+
+              <footer>
+                <div class="grid-contain">
+                    <div class="grid-item-1">
+                        <div class="item1content">
+                            <p><a href="Term.html">Term of Service</a></p>
+                            <p><a href="Privacy.html">Privacy Policy</a></p>
+                        </div>
+                    </div><!--GItem 1-->
+                    <div class="grid-item-2">
+                        <img src="images/TheInifis.png" alt="The Infinis Logo" class="gridimg">
+                    </div><!--GItem 2-->
+                    <div class="grid-item-3">
+                        <h3 class="address">The Infinis Mall</h3>
+                        <div class="item3content">
+                            <p class="address"><i class="fas fa-map-marker-alt"></i> Him Lam City, Do Xuan Hop Street,</p>
+                            <p class="address" id="detail1">An Phu Ward, District 2, Ho Chi Minh City, Vietnam</p>
+                            <p class="address" id="detail2"><i class="fas fa-phone-alt"></i>(028) 2288 9999</p>
+                        </div>
+                        <ul class="icon-container">
+                            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+                        </ul>
+                    </div><!--GItem 3-->
+                </div>
+                <div class="copyright">
+                    <p>&copy; 2021 The Infinis Mall. All Rights Reserved.</p>
+                </div>
+            </footer>      
+
 		</form>
 	</body>
 </html>	
