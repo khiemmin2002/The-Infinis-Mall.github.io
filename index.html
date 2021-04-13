@@ -21,7 +21,7 @@
         <div id="container" class="site-container">
             <header>
                 <div class="topheader">
-                    <div id="logo-img"><img src="images/TheInifis.png"></div>
+                    <div class="logo-img"><img src="images/TheInifis.png"></div>
                     <div id="search">
                         <form>
                             <input type="text" placeholder="Search">
@@ -29,7 +29,7 @@
                         </form>
                     </div><!--Search-->
                 </div><!--Top Header-->
-                <nav>
+                <nav class="main-menu">
                     <a href="index.html" class="active">
                         <i class="fas fa-home"></i>
                     </a>
@@ -40,8 +40,8 @@
                             <a href="Categories.html">Categories</a>
                         </div><!--Shops By (Dropdown)-->
                     </div>
-                    <a href="Fees.html" target="_self">Fees</a> 
-                    <a href="FAQs.html" target="_self">FAQs</a>  
+                    <a href="Fees.html">Fees</a> 
+                    <a href="FAQs.html">FAQs</a>  
                     <div class="dropdown">
                         <button class="dropbtn">About Us</button>
                         <div class="dropdown-content">
@@ -49,16 +49,52 @@
                             <a href="Members.html">Our Members</a>
                         </div>
                     </div><!--About Us (Dropdown)-->
-                    <a href="Contact.html">Contact</a>
+                    <a href="Contacts.html">Contact Us</a>
                     <div class="dropdown">
                         <button class="dropbtn">Account
                             <i class="fas fa-user"></i>
                         </button>
                         <div class="dropdown-content">
                             <a href="Login.html">Login</a>
-                            <a href="#">Join our family</a>
+                            <a href="SignUp.html">Join our family</a>
                         </div>
                     </div><!--Account (Dropdown)-->
+                </nav>
+                <nav class="alt-menu">
+                  <div class="side-nav">
+                      <input type="checkbox" id="check">
+                      <label for="check" class="menu-icon">
+                          <i class="fa fa-bars"></i>
+                      </label>
+                      <div class="sub-menu">
+                          <a class="empty">Empty</a>
+                          <a class="active" href="index.html">Home</a>
+                          <div class="drop">
+                              <a href="#">Browse By</a>
+                              <div class="items">
+                                  <a href="Brands.html">+ Brands</a>
+                                  <a href="Categories.html">+ Categories</a>
+                              </div>
+                          </div>
+                          <a href="Fees.html">Fees</a>
+                          <a href="FAQs.html">FAQs</a>
+                          <div class="drop">
+                              <a href="#">About Us</a>
+                              <div class="items">
+                                  <a href="About.html">+ The Mall</a>
+                                  <a href="Members.html">+ Our Members</a>
+                              </div>
+                          </div>
+                          <a href="Contacts.html">Contact Us</a>
+                          <div class="drop">
+                              <a href="#">Account</a>
+                              <div class="items">
+                                  <a href="Login.html">+ Login</a>
+                                  <a href="Categories.html">+ Join our family</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
                 </nav>
             </header>
             <div class="main">
@@ -67,33 +103,68 @@
                 </div>
                 <div class="featured-stores">
                     <div class="store">
-                        <img class="brand" src="images/apple.jpg">
+                        <img class="brand" src="images/apple.png">
                         <div class="overlay">
-                            <a>Check it out!</a>
+                            <a>Visit now!</a>
                         </div>
                     </div>
                     <div class="store">
                         <img class="brand" src="images/leicester.jpg">
                         <div class="overlay">
-                            <a>Check it out!</a>
+                            <a>Visit now!</a>
                         </div>
                     </div>
                     <div class="store">
                         <img class="brand" src="images/balenciaga.jpg">
                         <div class="overlay">
-                            <a>Check it out!</a>
+                            <a>Visit now!</a>
                         </div>
                     </div>
                     <div class="store"> 
                         <img class="brand" src="images/NBA.jpg">
                         <div class="overlay">   
-                            <a>Check it out!</a>
+                            <a>Visit now!</a>
                         </div>
                     </div>
                     <div class="store">
-                        <img class="brand" src="images/din-tai-fung.jpg">
+                        <img class="brand" src="images/hublot.jpeg">
                         <div class="overlay">
-                            <a>Check it out!</a>
+                            <a>Visit now!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured">
+                    <h1>featured products</h1>
+                </div>
+                <div class="featured-products">
+                    <div class="store">
+                        <img class="brand" src="images/ip-12-pro-max.jpg">
+                        <div class="overlay">
+                            <a>Iphone 12 Pro Max</a>
+                        </div>
+                    </div>
+                    <div class="store">
+                        <img class="brand" src="images/leicester-kit.jpg">
+                        <div class="overlay">
+                            <a>Leicester Home Kit</a>
+                        </div>
+                    </div>
+                    <div class="store">
+                        <img class="brand" src="images/speed-3.0.jpg">
+                        <div class="overlay">
+                            <a>Speed 3.0 Sneakers</a>
+                        </div>
+                    </div>
+                    <div class="store"> 
+                        <img class="brand" src="images/LA-jersey.jpg">
+                        <div class="overlay">   
+                            <a>LA Lakers Jersey</a>
+                        </div>
+                    </div>
+                    <div class="store">
+                        <img class="brand" src="images/hublot-watch.jpg">
+                        <div class="overlay">
+                            <a>Big Bang Meca-10</a>
                         </div>
                     </div>
                 </div>
@@ -104,31 +175,66 @@
                     <div class="store">
                         <img class="brand" src="images/microsoft.jpg">
                         <div class="overlay">
-                            <a>Check it out!</a>
+                            <a>Visit now!</a>
                         </div>
                     </div>
                     <div class="store">
                         <img class="brand" src="images/rolex.png">
                         <div class="overlay">
-                            <a>Check it out!</a>
+                            <a>Visit now!</a>
                         </div>
                     </div>
                     <div class="store">
                         <img class="brand" src="images/LV.png">
                         <div class="overlay">
-                            <a>Check it out!</a>
+                            <a>Visit now!</a>
                         </div>
                     </div>
                     <div class="store"> 
-                        <img class="brand" src="images/starbucks.png">
+                        <img class="brand" src="images/lego.jpeg">
                         <div class="overlay">   
-                            <a>Check it out!</a>
+                            <a>Visit now!</a>
                         </div>
                     </div>
                     <div class="store">
-                        <img class="brand" src="images/hublot.jpeg">
+                        <img class="brand" src="images/locknlock.png">
                         <div class="overlay">
-                            <a>Check it out!</a>
+                            <a>Visit now!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="new">
+                    <h1>new products</h1>
+                </div>
+                <div class="new-products">
+                    <div class="store">
+                        <img class="brand" src="images/xbox.jpg">
+                        <div class="overlay">
+                            <a>Xbox Series X</a>
+                        </div>
+                    </div>
+                    <div class="store">
+                        <img class="brand" src="images/rolex-watch.jpg">
+                        <div class="overlay">
+                            <a>Lady-Datejust gold</a>
+                        </div>
+                    </div>
+                    <div class="store">
+                        <img class="brand" src="images/keepall.jpg">
+                        <div class="overlay">
+                            <a>Keepall XS</a>
+                        </div>
+                    </div>
+                    <div class="store"> 
+                        <img class="brand" src="images/colosseum.png">
+                        <div class="overlay">   
+                            <a>Lego Colosseum</a>
+                        </div>
+                    </div>
+                    <div class="store">
+                        <img class="brand" src="images/top-class.jpg">
+                        <div class="overlay">
+                            <a>Top Class container</a>
                         </div>
                     </div>
                 </div>
@@ -136,25 +242,26 @@
             <footer>
                 <div class="grid-contain">
                     <div class="grid-item-1">
-                        <div class="item1content">
-                            <p><a href="Term.html">Term of Service</a></p>
+                        <div class="item-1-content">
+                            <p><a href="Terms.html">Terms of Service</a></p>
                             <p><a href="Privacy.html">Privacy Policy</a></p>
                         </div>
                     </div><!--GItem 1-->
                     <div class="grid-item-2">
-                        <img src="images/TheInifis.png" alt="The Infinis Logo" class="gridimg">
+                        <img src="images/TheInifis.png" alt="The Infinis Logo" class="grid-img">
                     </div><!--GItem 2-->
                     <div class="grid-item-3">
                         <h3 class="address">The Infinis Mall</h3>
-                        <div class="item3content">
+                        <div class="item-3-content">
                             <p class="address"><i class="fas fa-map-marker-alt"></i> Him Lam City, Do Xuan Hop Street,</p>
-                            <p class="address" id="detail1">An Phu Ward, District 2, Ho Chi Minh City, Vietnam</p>
-                            <p class="address" id="detail2"><i class="fas fa-phone-alt"></i>(028) 2288 9999</p>
+                            <p class="address" id="detail-1">An Phu Ward, District 2, HCMC, Vietnam</p>
+                            <p class="address" id="detail-2"><i class="fas fa-phone-alt"></i>(028)-2288-9999</p>
                         </div>
                         <ul class="icon-container">
-                            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+                            <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                            <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
                         </ul>
                     </div><!--GItem 3-->
                 </div>
