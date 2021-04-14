@@ -3,7 +3,7 @@ This is our official website for Assignment 1: The Infinis Mall. This website is
 
 Link: https://khiemmin2002.github.io/The-Infinis-Mall.github.io/
 
-Apple Logo img <https://thebait.no/wp-content/uploads/2020/11/apple-logo-mac-pro-2019.jpg>
+Apple Logo img https://www.logolynx.com/images/logolynx/5b/5bc63fc882d3fa02619c0a702a96c820.png
 
 Leicester City Logo img <https://lh3.googleusercontent.com/QQv6eMD5J47tE-McZs9luLSPuJvImvuZu5MYb7lPrIqJBLZoLeypj0Ad4lc5ribP6vw8=s85>
 
