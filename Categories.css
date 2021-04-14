@@ -1,18 +1,3 @@
-@font-face {
-    font-family: Poppins;
-    src: url(Fonts/Poppins-Regular.ttf);
-}
-
-@font-face {
-    font-family: Pop-bold;
-    src: url(Fonts/Poppins-Bold.ttf);
-}
-
-@font-face {
-    font-family: Lobster;
-    src: url(Fonts/Lobster-Regular.ttf);
-}
-
 * {
     box-sizing: border-box;
 }
