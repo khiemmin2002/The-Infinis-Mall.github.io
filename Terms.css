@@ -289,7 +289,7 @@ footer {
     overflow: hidden;
     background-color: black;
     color: #ffffff;
-    height: 320px;
+    height: auto;
 }
 
 /* Setting the grid */
@@ -454,6 +454,24 @@ footer .copyright p {
 }
 
 /* Making the page responsive */
+@media screen and (max-width: 1024px) {
+    footer ul li .fa-facebook-f {
+        color: #3b5998;
+    }
+
+    footer ul li .fa-twitter {
+        color: dodgerblue;
+    }
+
+    footer ul li .fa-instagram {
+        color: palevioletred;
+    }
+
+    footer ul li .fa-linkedin-in {
+        color: #0e76a8;
+    }
+}
+
 @media screen and (max-width: 375px) {
     #search {
         display: none;
@@ -498,12 +516,12 @@ footer .copyright p {
     
     .sub-menu {
         position: absolute;
-        right: -100%;
         width: 100%;
         text-align: right;
         transition: 1s ease;
         z-index: 1;
         background-color: #b3965a;
+        opacity: 0;
     }
 
     .sub-menu a {
@@ -511,7 +529,7 @@ footer .copyright p {
         font-size: 22px;
         color: white;
         text-decoration: none;
-        padding: 19px;
+        padding: 20px;
     }
 
     .sub-menu a:not(.empty):hover {
@@ -526,7 +544,7 @@ footer .copyright p {
     }
 
     #check:checked ~ .sub-menu {
-        right: 0;
+        opacity: 1;
     }
 
     .drop {
@@ -580,10 +598,6 @@ footer .copyright p {
         display: block;
         width: 100%;
     }    
-
-    footer {
-        height: auto;
-    }
 
     footer .grid-contain {
         display: grid;

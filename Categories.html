@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-VN">
     <head>
-        <title>Shops by Brands | Infinis Mall | The biggest shopping center in Vietnam</title>
+        <title>Browse by Categories | Infinis Mall | The biggest shopping center in Vietnam</title>
         <meta charset="UTF-8">
         <meta name="authors" content="Group 8">
         <meta name="description" content="shopping mall">
@@ -24,7 +24,7 @@
         <div id="container" class="site-container">
             <header>
                 <div class="topheader">
-                    <div id="logo-img"><img src="images/TheInifis.png"></div>
+                    <div class="logo-img"><img src="images/TheInifis.png"></div>
                     <div id="search">
                         <form>
                             <input type="text" placeholder="Search">
@@ -32,19 +32,19 @@
                         </form>
                     </div><!--Search-->
                 </div><!--Top Header-->
-                <nav>
-                    <a href="index.html" class="active">
+                <nav class="main-menu">
+                    <a href="index.html">
                         <i class="fas fa-home"></i>
                     </a>
                     <div class="dropdown">
                         <button class="dropbtn">Browse by</button>
                         <div class="dropdown-content" id="special">
                             <a href="Brands.html">Brands</a>
-                            <a href="Categories.html">Categories</a>
+                            <a class="active" href="Categories.html">Categories</a>
                         </div><!--Shops By (Dropdown)-->
                     </div>
-                    <a href="Fees.html" target="_self">Fees</a> 
-                    <a href="FAQs.html" target="_self">FAQs</a>  
+                    <a href="Fees.html">Fees</a> 
+                    <a href="FAQs.html">FAQs</a>  
                     <div class="dropdown">
                         <button class="dropbtn">About Us</button>
                         <div class="dropdown-content">
@@ -52,26 +52,58 @@
                             <a href="Members.html">Our Members</a>
                         </div>
                     </div><!--About Us (Dropdown)-->
-                    <a href="Contact.html">Contact</a>
+                    <a href="Contacts.html">Contact Us</a>
                     <div class="dropdown">
                         <button class="dropbtn">Account
                             <i class="fas fa-user"></i>
                         </button>
                         <div class="dropdown-content">
                             <a href="Login.html">Login</a>
-                            <a href="#">Join our family</a>
+                            <a href="SignUp.html">Join our family</a>
                         </div>
                     </div><!--Account (Dropdown)-->
                 </nav>
+                <nav class="alt-menu">
+                    <div class="side-nav">
+                        <input type="checkbox" id="check">
+                        <label for="check" class="menu-icon">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <div class="sub-menu">
+                            <a class="empty">Empty</a>
+                            <a href="index.html">Home</a>
+                            <div class="drop">
+                                <a href="javascript:void(0)">Browse By</a>
+                                <div class="items">
+                                    <a href="Brands.html">+ Brands</a>
+                                    <a href="Categories.html">+ Categories</a>
+                                </div>
+                            </div>
+                            <a href="Fees.html">Fees</a>
+                            <a href="FAQs.html">FAQs</a>
+                            <div class="drop">
+                                <a href="javascript:void(0)">About Us</a>
+                                <div class="items">
+                                    <a href="About.html">+ The Mall</a>
+                                    <a href="Members.html">+ Our Members</a>
+                                </div>
+                            </div>
+                            <a href="Contacts.html">Contact Us</a>
+                            <div class="drop">
+                                <a href="javascript:void(0)">Account</a>
+                                <div class="items">
+                                    <a href="Login.html">+ Login</a>
+                                    <a href="Categories.html">+ Join our family</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
             </header>
-
             <div class="main">
                 <div class="head-categories">
                     <div class="cate-title">
                         <h2><strong>Appliances</strong></h2>
-                    </div>
-                    <div class="cate-selection-a-z">
-                        
                     </div>
                 </div>
                 <div class="appliances cate">
@@ -85,22 +117,18 @@
                         </div>
                     </div>
                 </div><!--Appliances-->
-
                 <div class="head-categories">
                     <div class="cate-title">
-                        <h2><strong>Café</strong></h2>
-                    </div>
-                    <div class="cate-selection-a-z">
-                        
+                        <h2><strong>Cafes</strong></h2>
                     </div>
                 </div>
-                <div class="café cate">
+                <div class="cafes cate">
                     <div class="store">
                         <div class="store-img">
                             <a href="Apple.html"><img src="images/Starbucks Coffee Shop.jpg"></a>
                         </div>
                         <div class="store-description">
-                            <p class="type-of-store">Café</p>
+                            <p class="type-of-store">Cafes</p>
                             <a href="Apple.html"><p class="store-name">Starbucks</p></a>
                         </div>
                     </div>
@@ -109,18 +137,14 @@
                             <a href="Apple.html"><img src="images/Trung Nguyen Legend Coffee shop.jpg"></a>
                         </div>
                         <div class="store-description">
-                            <p class="type-of-store">Café</p>
+                            <p class="type-of-store">Cafes</p>
                             <a href="Apple.html"><p class="store-name">Trung Nguyen Legend</p></a>
                         </div>
                     </div>
                 </div><!--Café-->
-                
                 <div class="head-categories">
                     <div class="cate-title">
                         <h2><strong>Electronics</strong></h2>
-                    </div>
-                    <div class="cate-selection-a-z">
-                        
                     </div>
                 </div>
                 <div class="electronics cate">
@@ -143,13 +167,9 @@
                         </div>
                     </div>
                 </div><!--Electronics-->
-
                 <div class="head-categories">
                     <div class="cate-title">
                         <h2><strong>Fashion</strong></h2>
-                    </div>
-                    <div class="cate-selection-a-z">
-                        
                     </div>
                 </div>
                 <div class="fashion cate">
@@ -172,22 +192,18 @@
                         </div>
                     </div>
                 </div><!--Fashion-->
-
                 <div class="head-categories">
                     <div class="cate-title">
-                        <h2><strong>Restaurant</strong></h2>
-                    </div>
-                    <div class="cate-selection-a-z">
-                        
+                        <h2><strong>Restaurants</strong></h2>
                     </div>
                 </div>
-                <div class="restaurant cate">
+                <div class="restaurants cate">
                     <div class="store">
                         <div class="store-img">
                             <a href="Apple.html"><img src="images/Din Tai Fung Restaurant.jpg"></a>
                         </div>
                         <div class="store-description">
-                            <p class="type-of-store">Restaurant</p>
+                            <p class="type-of-store">Restaurants</p>
                             <a href="Apple.html"><p class="store-name">Din Tai Fung</p></a>
                         </div>
                     </div>
@@ -196,18 +212,14 @@
                             <a href="Apple.html"><img src="images/Shake Shack Restaurant.jpg"></a>
                         </div>
                         <div class="store-description">
-                            <p class="type-of-store">Restaurant</p>
+                            <p class="type-of-store">Restaurants</p>
                             <a href="Apple.html"><p class="store-name">Shake Shack</p></a>
                         </div>
                     </div>
                 </div><!--Restaurant-->
-
                 <div class="head-categories">
                     <div class="cate-title">
                         <h2><strong>Sports</strong></h2>
-                    </div>
-                    <div class="cate-selection-a-z">
-                        
                     </div>
                 </div>
                 <div class="sports cate">
@@ -248,13 +260,9 @@
                         </div>
                     </div>
                 </div><!--Sports-->
-
                 <div class="head-categories">
                     <div class="cate-title">
                         <h2><strong>Toys</strong></h2>
-                    </div>
-                    <div class="cate-selection-a-z">
-                        
                     </div>
                 </div>
                 <div class="toys cate">
@@ -268,22 +276,18 @@
                         </div>
                     </div>
                 </div><!--Toys-->
-
                 <div class="head-categories">
                     <div class="cate-title">
-                        <h2><strong>Watchs</strong></h2>
-                    </div>
-                    <div class="cate-selection-a-z">
-                        
+                        <h2><strong>Watches</strong></h2>
                     </div>
                 </div>
-                <div class="watchs cate">
+                <div class="watches cate">
                     <div class="store">
                         <div class="store-img">
                             <a href="Apple.html"><img src="images/Hublot Store.jpg"></a>
                         </div>
                         <div class="store-description">
-                            <p class="type-of-store">Watchs</p>
+                            <p class="type-of-store">Watches</p>
                             <a href="Apple.html"><p class="store-name">Hublot</p></a>
                         </div>
                     </div>
@@ -292,35 +296,35 @@
                             <a href="Apple.html"><img src="images/Rolex Store.jpg"></a>
                         </div>
                         <div class="store-description">
-                            <p class="type-of-store">Watchs</p>
+                            <p class="type-of-store">Watches</p>
                             <a href="Apple.html"><p class="store-name">Rolex</p></a>
                         </div>
                     </div>
-                </div><!--Watchs-->
+                </div><!--Watches-->
             </div>
-
             <footer>
                 <div class="grid-contain">
                     <div class="grid-item-1">
-                        <div class="item1content">
-                            <p><a href="Term.html">Term of Service</a></p>
+                        <div class="item-1-content">
+                            <p><a href="Terms.html">Terms of Service</a></p>
                             <p><a href="Privacy.html">Privacy Policy</a></p>
                         </div>
                     </div><!--GItem 1-->
                     <div class="grid-item-2">
-                        <img src="images/TheInifis.png" alt="The Infinis Logo" class="gridimg">
+                        <img src="images/TheInifis.png" alt="The Infinis Logo" class="grid-img">
                     </div><!--GItem 2-->
                     <div class="grid-item-3">
                         <h3 class="address">The Infinis Mall</h3>
-                        <div class="item3content">
+                        <div class="item-3-content">
                             <p class="address"><i class="fas fa-map-marker-alt"></i> Him Lam City, Do Xuan Hop Street,</p>
-                            <p class="address" id="detail1">An Phu Ward, District 2, Ho Chi Minh City, Vietnam</p>
-                            <p class="address" id="detail2"><i class="fas fa-phone-alt"></i>(028) 2288 9999</p>
+                            <p class="address" id="detail-1">An Phu Ward, District 2, HCMC, Vietnam</p>
+                            <p class="address" id="detail-2"><i class="fas fa-phone-alt"></i>(028)-2288-9999</p>
                         </div>
                         <ul class="icon-container">
-                            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+                            <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                            <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
                         </ul>
                     </div><!--GItem 3-->
                 </div>

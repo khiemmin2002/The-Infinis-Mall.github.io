@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-VN">
     <head>
-        <title>Infinis Mall | The biggest shopping center in Vietnam</title>
+        <title>FAQs | Infinis Mall | The biggest shopping center in Vietnam</title>
         <meta charset="UTF-8">
         <meta name="authors" content="Group 8">
         <meta name="description" content="shopping mall">
@@ -15,47 +15,157 @@
         <link rel="stylesheet" type="text/css" href="FAQs.css" media="screen">
         <script src="https://kit.fontawesome.com/5143a5dc4e.js" crossorigin="anonymous"></script>
     </head>
+
     <body>
-      <div class="box">
-      <p class= "heading">FAQs</p>
-      <div class="faqs">
-            <details>
-              <summary> <b> Is everything at Mall of America currently open? </b>
-
-              </summary>
-              <p class="text">Mall of America retail stores, attractions and dining options are open. Please check our directory page for an updated list.</p>
-            </details>  
-            <details>
-              <summary><b> What are Mall hours?</b></summary>
-              <p class="text">Current retail hours are Sunday-Thursday from 11:00 am to 7:00 pm and Friday + Saturday from 10:00 am to 9:00 pm.
-                You can also check the hours page. As a reminder, guests are required to wear a face covering during their visit. Children under 5 years old are exempt.
-              </p>
-            </details>
-            <details>
-              <summary><b>When are Mall doors open for the public to enter?</b></summary>
-              <p class="text"> Mall doors open three hours prior to when retail opens.</p>
-            </details>
-            <details>
-              <summary><b>Are mall walkers allowed to walk the Mall before retail hours?</b></summary>
-              <p class="text"> Yes. Mall walkers are welcome, but – like all guests – are required to wear a face mask that fully cover the mouth and nose.
-                Walkers must also practice social distancing. </p>
-            </details>
-            <details>
-              <summary><b>Are food courts open? </b></summary>
-              <p class="text">Yes, our food courts, fast casual, full-service and fine dining restaurants are open.
-                You can always visit our dining page for a complete list.</p>
-              </p>
-            </details>
-            <details>
-              <summary><b> Are you giving out free face masks?</b></summary>
-              <p class="text">Guests are required to bring and wear personal face masks with them when visiting Mall of America. 
-              </p>
-            </details>
-            <details>
-              <summary><b>Can I still enter Mall of America if I forgot my face mask?</b></summary>
-              <p class="text">No, you will not be able to enter Mall of America without a face mask</p>
-            </details>
-          </div>
-      </div>
-</body>
-
+        <!--Making the container-->
+        <div id="container" class="site-container">
+            <header>
+                <div class="topheader">
+                    <div class="logo-img"><img src="images/TheInifis.png"></div>
+                    <div id="search">
+                        <form>
+                            <input type="text" placeholder="Search">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div><!--Search-->
+                </div><!--Top Header-->
+                <nav class="main-menu">
+                    <a href="index.html">
+                        <i class="fas fa-home"></i>
+                    </a>
+                    <div class="dropdown">
+                        <button class="dropbtn">Browse by</button>
+                        <div class="dropdown-content" id="special">
+                            <a href="Brands.html">Brands</a>
+                            <a href="Categories.html">Categories</a>
+                        </div><!--Shops By (Dropdown)-->
+                    </div>
+                    <a href="Fees.html">Fees</a> 
+                    <a class="active" href="FAQs.html">FAQs</a>  
+                    <div class="dropdown">
+                        <button class="dropbtn">About Us</button>
+                        <div class="dropdown-content">
+                            <a href="About.html">The Mall</a>
+                            <a href="Members.html">Our Members</a>
+                        </div>
+                    </div><!--About Us (Dropdown)-->
+                    <a href="Contacts.html">Contact Us</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">Account
+                            <i class="fas fa-user"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="Login.html">Login</a>
+                            <a href="SignUp.html">Join our family</a>
+                        </div>
+                    </div><!--Account (Dropdown)-->
+                </nav>
+                <nav class="alt-menu">
+                    <div class="side-nav">
+                        <input type="checkbox" id="check">
+                        <label for="check" class="menu-icon">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <div class="sub-menu">
+                            <a class="empty">Empty</a>
+                            <a href="index.html">Home</a>
+                            <div class="drop">
+                                <a href="javascript:void(0)">Browse By</a>
+                                <div class="items">
+                                    <a href="Brands.html">+ Brands</a>
+                                    <a href="Categories.html">+ Categories</a>
+                                </div>
+                            </div>
+                            <a href="Fees.html">Fees</a>
+                            <a href="FAQs.html">FAQs</a>
+                            <div class="drop">
+                                <a href="javascript:void(0)">About Us</a>
+                                <div class="items">
+                                    <a href="About.html">+ The Mall</a>
+                                    <a href="Members.html">+ Our Members</a>
+                                </div>
+                            </div>
+                            <a href="Contacts.html">Contact Us</a>
+                            <div class="drop">
+                                <a href="javascript:void(0)">Account</a>
+                                <div class="items">
+                                    <a href="Login.html">+ Login</a>
+                                    <a href="Categories.html">+ Join our family</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <div class="box">
+                <p class= "heading">FAQs</p>
+                <div class="faqs">
+                    <details>
+                        <summary><b>Is everything at The Infinis Mall currently open?</b></summary>
+                        <p class="text">All of The Infinis Mall retail stores, attractions and dining options are open. Please check our directory page for an updated list.</p>
+                    </details>  
+                    <details>
+                        <summary><b> What are The Infinis Mall's hours?</b></summary>
+                        <p class="text">Current retail hours are Sunday-Thursday from 11:00 am to 7:00 pm and Friday + Saturday from 10:00 am to 9:00 pm.
+                        You can also check the hours page. As a reminder, guests are required to wear a face covering during their visit. Children under 5 years old are exempt.
+                        </p>
+                    </details>
+                    <details>
+                        <summary><b>When are the mall doors open for the public to enter?</b></summary>
+                        <p class="text"> The Infinis Mall's doors open three hours prior to when retail opens.</p>
+                    </details>
+                    <details>
+                        <summary><b>Are mall walkers allowed to walk The Infinis Mall before retail hours?</b></summary>
+                        <p class="text"> Yes. Mall walkers are welcome, but – like all guests – are required to wear a face mask that fully cover the mouth and nose.
+                        Walkers must also practice social distancing. </p>
+                    </details>
+                    <details>
+                        <summary><b>Are food courts open? </b></summary>
+                        <p class="text">Yes, our food courts, fast casual, full-service and fine dining restaurants are open.
+                        You can always visit our dining page for a complete list.</p>
+                        </p>
+                    </details>
+                    <details>
+                        <summary><b> Are you giving out free face masks?</b></summary>
+                        <p class="text">Guests are required to bring and wear personal face masks with them when visiting The Infinis Mall. 
+                        </p>
+                    </details>
+                    <details>
+                        <summary><b>Can I still enter The Infinis Mall if I forgot my face mask?</b></summary>
+                        <p class="text">No, you will not be able to enter The Infinis Mall without a face mask</p>
+                    </details>
+                </div>
+            </div>
+            <footer>
+                <div class="grid-contain">
+                    <div class="grid-item-1">
+                        <div class="item-1-content">
+                            <p><a href="Terms.html">Terms of Service</a></p>
+                            <p><a href="Privacy.html">Privacy Policy</a></p>
+                        </div>
+                    </div><!--GItem 1-->
+                    <div class="grid-item-2">
+                        <img src="images/TheInifis.png" alt="The Infinis Logo" class="grid-img">
+                    </div><!--GItem 2-->
+                    <div class="grid-item-3">
+                        <h3 class="address">The Infinis Mall</h3>
+                        <div class="item-3-content">
+                            <p class="address"><i class="fas fa-map-marker-alt"></i> Him Lam City, Do Xuan Hop Street,</p>
+                            <p class="address" id="detail-1">An Phu Ward, District 2, HCMC, Vietnam</p>
+                            <p class="address" id="detail-2"><i class="fas fa-phone-alt"></i>(028)-2288-9999</p>
+                        </div>
+                        <ul class="icon-container">
+                            <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                            <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div><!--GItem 3-->
+                </div>
+                <div class="copyright">
+                    <p>&copy; 2021 The Infinis Mall. All Rights Reserved.</p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
