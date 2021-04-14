@@ -407,6 +407,7 @@ h1 {
 
 textarea {
     resize: vertical;
+    width: 620px;
 }
 
 /* Setting the footer */
