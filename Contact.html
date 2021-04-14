@@ -65,119 +65,127 @@
           </nav>
       </header>
 	
-	<body>
-		<h1>Contact Form</h1>
-		<form method="get" action="index.html">
 
-            <div class="form-row">
-                <div class="form-label">
-                  <label for="purpose">Purpose of Contact</label>
-                </div>
-                <div class="form-field">
+
+    <div class="main">
+        <div class="content">
+          <div class="h-contain">
+            <h1>Contact Us</h1>
+          </div>
+        </div>
+
+        <div class="form">
+          <form method="get" action="index.html">
+          <div class="form-title">
+              <h2>Contact Form</h2>
+          </div>
+
+              <div class="user-details">
+                <div class="input-box">
+                  <label for="detail">Purpose of Contact</label>
                   <select id="purpose" name="purpose">
                     <option value="business">Business</option>
                     <option value="personal">Personal</option>
                   </select>
+                </div> 
+                <div class="input-box">
+                  <label for="detail">Full Name</label>
+                  <input type="text" name="first-name" id="first-name" placeholder="Enter your full name" maxlength="50" required>
                 </div>
-              </div>
+                <div class="input-box">
+                  <label for="detail">Email Address</label>
+                  <input type="text" name="email" id="email" placeholder="Enter your email" maxlength="50" required>
+                </div>
+                <div class="input-box">
+                  <label for="detail">Phone Number</label>
+                  <input type="tel" name="phone" id="phone" maxlength="50" placeholder="1234-567-890" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" required>
+                </div>
+                <div class="input-box">
+                  <label for="detail">Preferred Contact Methor</label><br>
+                  <label class="radio">Phone
+                    <input type="radio" name="radio">
+                    <span class="radiomark"></span>
+                  </label>
+                  <label class="radio">Email
+                    <input type="radio" name="radio">
+                    <span class="radiomark"></span>
+                  </label>
 
-            <br>
-            <div class="form-row">
-                <div class="form-label">
-                  <label for="name">Name</label>
                 </div>
-                <div class="form-field">
-                  <input required id="name" type="text" name="name" maxlength="50">
+                <div class="input-box">
+                  <label for="detail">Contact Days</label><br>
                 </div>
-              </div>
+                <label class="container">Monday
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">Tuesday
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">Wednesday
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">Thursday
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">Friday
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">Saturday
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">Sunday
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
 
-              <br>
-            <div class="form-row">
-                <div class="form-label">
-                  <label for="email">Email Address</label>
-                </div>
-                <div class="form-field">
-                  <input required id="email" type="text" name="email" maxlength="50">
-                </div>
-              </div>
-
-              <br>
-              <div class="form-row">
-                  <div class="form-label">
-                    <label for="phone">Phone Number</label>
-                  </div>
-                  <div class="form-field">
-                    <input required id="phone" type="tel" name="phone" placeholder="1234-567-890" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}"required>
-                  </div>
-                </div>
-
-              <div>
-				<br>
-				<label>Preferred Contact Methor</label><br>
-				<input type="radio" id="phone" name="method" value="phone">
-				<label for="phone">Phone</label>
-				<input type="radio" id="email" name="method" value="email">
-				<label for="email">Email</label>
-			</div>
-			
-			<div>
-				<br>
-				<label>Contact Days</label><br>
-				<input type="checkbox" name="seeks[]" value="mon" />Monday
-				<br><input type="checkbox" name="seeks[]" value="tue" />Tuesday
-				<br><input type="checkbox" name="seeks[]" value="wed" />Wednesday
-				<br><input type="checkbox" name="seeks[]" value="thu" />Thursday
-				<br><input type="checkbox" name="seeks[]" value="fri" />Friday
-				<br><input type="checkbox" name="seeks[]" value="sat" />Saturday
-				<br><input type="checkbox" name="seeks[]" value="sun" />Sunday
-			</div>
-
-            <br>
-              <div class="form-row">
-                <div class="form-label">
-                  <label for="message">Your Message</label>
-                </div>
-                <div class="form-field">
+                <div class="message">
+                  <label for="detail">Your Message</label><br>
                   <textarea cols="40" rows="10" required id="message" name="message"></textarea>
                 </div>
-              </div>
-
-              <br>
-              <div class="form-row">
-                <input type="reset" value="Clear">
-                <input type="submit" value="Send">
-              </div>
-
-              <footer>
-                <div class="grid-contain">
-                    <div class="grid-item-1">
-                        <div class="item1content">
-                            <p><a href="Term.html">Term of Service</a></p>
-                            <p><a href="Privacy.html">Privacy Policy</a></p>
-                        </div>
-                    </div><!--GItem 1-->
-                    <div class="grid-item-2">
-                        <img src="images/TheInifis.png" alt="The Infinis Logo" class="gridimg">
-                    </div><!--GItem 2-->
-                    <div class="grid-item-3">
-                        <h3 class="address">The Infinis Mall</h3>
-                        <div class="item3content">
-                            <p class="address"><i class="fas fa-map-marker-alt"></i> Him Lam City, Do Xuan Hop Street,</p>
-                            <p class="address" id="detail1">An Phu Ward, District 2, Ho Chi Minh City, Vietnam</p>
-                            <p class="address" id="detail2"><i class="fas fa-phone-alt"></i>(028) 2288 9999</p>
-                        </div>
-                        <ul class="icon-container">
-                            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
-                        </ul>
-                    </div><!--GItem 3-->
+                <div class="input-box">
+                  <input type="reset" value="Clear" class="box">
+                  <input type="submit" value="Send" class="box">
                 </div>
-                <div class="copyright">
-                    <p>&copy; 2021 The Infinis Mall. All Rights Reserved.</p>
-                </div>
-            </footer>      
+              </div>
+            </div>   
+		      </form>
+        </div>
+    </div>    
 
-		</form>
+        <footer>
+          <div class="grid-contain">
+              <div class="grid-item-1">
+                  <div class="item1content">
+                      <p><a href="Term.html">Term of Service</a></p>
+                      <p><a href="Privacy.html">Privacy Policy</a></p>
+                  </div>
+              </div><!--GItem 1-->
+              <div class="grid-item-2">
+                  <img src="images/TheInifis.png" alt="The Infinis Logo" class="gridimg">
+              </div><!--GItem 2-->
+              <div class="grid-item-3">
+                  <h3 class="address">The Infinis Mall</h3>
+                  <div class="item3content">
+                      <p class="address"><i class="fas fa-map-marker-alt"></i> Him Lam City, Do Xuan Hop Street,</p>
+                      <p class="address" id="detail1">An Phu Ward, District 2, Ho Chi Minh City, Vietnam</p>
+                      <p class="address" id="detail2"><i class="fas fa-phone-alt"></i>(028) 2288 9999</p>
+                  </div>
+                  <ul class="icon-container">
+                      <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                      <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                      <li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+                  </ul>
+              </div><!--GItem 3-->
+          </div>
+          <div class="copyright">
+              <p>&copy; 2021 The Infinis Mall. All Rights Reserved.</p>
+          </div>
+      </footer>   
 	</body>
 </html>	
