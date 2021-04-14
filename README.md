@@ -1,6 +1,5 @@
 # The-Infinis-Mall.github.io
-Đây là repo để push website demo cho mọi người xem :))
-Lỗi nữa xóa web :))
+This is our official website for Assignment 1: The Infinis Mall. This website is currently compatible with 3 different devices: Laptop/PC, ipad Pro and iphone X.
 
 Link: https://khiemmin2002.github.io/The-Infinis-Mall.github.io/
 
