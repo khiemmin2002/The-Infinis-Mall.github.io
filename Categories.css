@@ -14,8 +14,6 @@
 }
 
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -24,7 +22,7 @@ html, body {
     height: auto;
     margin: 0;
     padding: 0;
-    font-family: Poppins, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 1.254;
 }
 
