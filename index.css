@@ -421,7 +421,7 @@ footer .copyright p {
 }
 
 /* Making the page responsive */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
     .featured-stores, .featured-products, .new-stores, .new-products {
         flex-wrap: wrap;
         max-width: 100%;
@@ -453,7 +453,7 @@ footer .copyright p {
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
     #search {
         display: none;
     }

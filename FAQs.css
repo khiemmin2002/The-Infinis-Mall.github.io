@@ -379,7 +379,26 @@ footer .copyright p {
     margin-top: 0;
 }
 
-@media screen and (max-width: 375px) {
+/* Making the page responsive */
+@media screen and (max-width: 1200px) {
+    footer ul li .fa-facebook-f {
+        color: #3b5998;
+    }
+
+    footer ul li .fa-twitter {
+        color: dodgerblue;
+    }
+
+    footer ul li .fa-instagram {
+        color: palevioletred;
+    }
+
+    footer ul li .fa-linkedin-in {
+        color: #0e76a8;
+    }
+}
+
+@media screen and (max-width: 500px) {
     #search {
         display: none;
     }

@@ -447,31 +447,29 @@ footer .copyright p {
 }
 
 /* Making the page responsive */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
     .login {
         transform: translate(107.25%, 40%);
     }
 
-    @media screen and (max-width: 1024px) {
-        footer ul li .fa-facebook-f {
-            color: #3b5998;
-        }
+    footer ul li .fa-facebook-f {
+        color: #3b5998;
+    }
     
-        footer ul li .fa-twitter {
-            color: dodgerblue;
-        }
+    footer ul li .fa-twitter {
+        color: dodgerblue;
+    }
     
-        footer ul li .fa-instagram {
-            color: palevioletred;
-        }
+    footer ul li .fa-instagram {
+        color: palevioletred;
+    }
     
-        footer ul li .fa-linkedin-in {
-            color: #0e76a8;
-        }
+    footer ul li .fa-linkedin-in {
+        color: #0e76a8;
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
     #search {
         display: none;
     }

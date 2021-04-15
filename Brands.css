@@ -415,7 +415,7 @@ footer .copyright p {
 }
 
 /* Making the page responsive */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
     .head-categories {
         display: flex;
         justify-content: center;
@@ -451,7 +451,7 @@ footer .copyright p {
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
     #search {
         display: none;
     }

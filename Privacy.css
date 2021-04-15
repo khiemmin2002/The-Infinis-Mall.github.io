@@ -459,7 +459,7 @@ footer .copyright p {
 }
 
 /* Making the page responsive */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
     footer ul li .fa-facebook-f {
         color: #3b5998;
     }
@@ -477,7 +477,7 @@ footer .copyright p {
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
     #search {
         display: none;
     }
