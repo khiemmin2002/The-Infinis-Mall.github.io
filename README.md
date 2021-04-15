@@ -59,6 +59,8 @@ Privacy Policy content <https://www.kingpower.com/content/privacy-policy?lang=en
 
 iPhone 12 Pro Max img <https://image.thanhnien.vn/768/uploaded/nthanhluan/2020_10_14/1_foyn.jpg>
 
+iPhone 12 Pro Max Product Details img <https://bizweb.dktcdn.net/100/116/615/products/iphone-12-pro-max-family-hero-all-jpeg.jpg?v=1602672460000>
+
 iPad Pro 2020 img <https://cdn.tgdd.vn/Products/Images/522/220163/ipad-pro-11-inch-2020-xam-600x600-200x200.jpg>
 
 AirPods Pro img <https://limota.vn/wp-content/uploads/2020/01/Apple-AirPods-Pro.png>
