@@ -178,7 +178,7 @@ html, body {
 .cate-title {
     position: absolute;
     display: block;
-    top: 45%;
+    top: 20%;
     left: 150px;
     border-bottom: 5px solid #c4a465;
 }

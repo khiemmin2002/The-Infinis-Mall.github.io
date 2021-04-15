@@ -173,13 +173,12 @@ html, body {
     height: 150px;
     padding: 14px;
     position: relative;
-    /* background: rgba(231, 227, 184, 0.795); */
 }
 
 .cate-title {
     position: absolute;
     display: block;
-    top: 45%;
+    top: 20%;
     left: 140px;
     border-bottom: 5px solid #c4a465;
 }

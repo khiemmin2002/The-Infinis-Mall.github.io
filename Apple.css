@@ -262,17 +262,30 @@ main {
     text-decoration: none;
 }
 
-.view button {
+.button {
     border: none;
     border-radius: 10px;
-    background: #c4a465;
-    color: #ffffff;
+    background-color: #c4a465;
+    color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: darkslategray;
+    color: white;
+    font-size: 16px;
+    padding: 15px 32px;
+    margin: 4px 2px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
     cursor: pointer;
 }
 
@@ -446,7 +459,25 @@ footer .copyright p {
 }
 
 /* Making the page responsive */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1200px) {
+    footer ul li .fa-facebook-f {
+        color: #3b5998;
+    }
+
+    footer ul li .fa-twitter {
+        color: dodgerblue;
+    }
+
+    footer ul li .fa-instagram {
+        color: palevioletred;
+    }
+
+    footer ul li .fa-linkedin-in {
+        color: #0e76a8;
+    }
+}
+
+@media screen and (max-width: 500px) {
     #search {
         display: none;
     }
@@ -490,12 +521,12 @@ footer .copyright p {
     
     .sub-menu {
         position: absolute;
-        right: -100%;
         width: 100%;
         text-align: right;
         transition: 1s ease;
         z-index: 1;
         background-color: #b3965a;
+        opacity: 0;
     }
 
     .sub-menu a {
@@ -503,7 +534,7 @@ footer .copyright p {
         font-size: 22px;
         color: white;
         text-decoration: none;
-        padding: 19px;
+        padding: 20px;
     }
 
     .sub-menu a:not(.empty):hover {
@@ -518,7 +549,7 @@ footer .copyright p {
     }
 
     #check:checked ~ .sub-menu {
-        right: 0;
+        opacity: 1;
     }
 
     .drop {
@@ -571,16 +602,46 @@ footer .copyright p {
     .drop:hover .items {
         display: block;
         width: 100%;
-    }    
-
-    .featured-stores, .featured-products, .new-stores, .new-products {
+    }  
+    
+    .description {
         display: flex;
+        max-width: 100%;
         flex-direction: column;
-        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
-    .overlay {
-        font-size: 20px;
+    .title {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+
+    .title h1 {
+        text-align: center;
+    }
+
+    .title .type {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .title p {
+        margin-top: 20px;
+    }
+
+    .title #secondline {
+        margin-top: 15px;
+    }
+
+    .store-info {
+        margin-top: 20px;
+    }
+
+    .view button {
+        margin-top: 15px;
     }
 
     footer {
