@@ -667,6 +667,11 @@ footer .copyright p {
         transform: translateX(-20%);
     }
 
+    .detail .membership .content {
+        width: 375px;
+        transform: translateX(-20%);
+    }
+
     .detail .monthly .monthly-img {
         width: 375px;
         height: 350px;
