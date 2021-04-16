@@ -65,4 +65,6 @@ iPad Pro 2020 img <https://cdn.tgdd.vn/Products/Images/522/220163/ipad-pro-11-in
 
 AirPods Pro img <https://limota.vn/wp-content/uploads/2020/01/Apple-AirPods-Pro.png>
 
+Macbook Air M1 img https://ben.com.vn/Content/Images/Products/macbook-pro-silver-m1-2020.jpeg
+
 My Account img <https://pbs.twimg.com/profile_images/1172983379442241541/O-0ENfTd.jpg>
