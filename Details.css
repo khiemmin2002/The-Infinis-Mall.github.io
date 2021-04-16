@@ -255,7 +255,6 @@ html, body {
     border-radius: 15px;
     line-height: 20px;
     box-shadow: 2px 5px 10px rgb(218, 207, 207);
-    display: inline-block;
     cursor: pointer;
 }
 
@@ -276,6 +275,7 @@ html, body {
 
 .product-contain .buy-options button {
     border: none;
+    color: white;
     margin: 0 5px;
     padding: 12px 14px;
     font-family: "Poppins", sans-serif;
@@ -311,6 +311,7 @@ html, body {
     left: 20px;
     font-family: "PopsLight", sans-serif;
     font-size: 12px;
+    font-weight: 900;
 }
 
 /* Setting the footer */
@@ -488,7 +489,7 @@ footer .copyright p {
 }
 
 /* Making the page responsive */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
     .head-categories {
         display: flex;
         justify-content: center;
@@ -505,6 +506,19 @@ footer .copyright p {
     .store {
         width: 350px;
         margin: 20px;
+    }
+
+    .product-contain .price-and-buy .price {
+        transform: translateX(20%);
+    }
+
+    .product-contain .price-and-buy .buy-options {
+        transform: translate(-40%, 15%);
+    }
+
+    .product-contain .price-and-buy .buy-options #buy {
+        margin-top: 30px;
+        margin-left: 10px;
     }
 
     footer ul li .fa-facebook-f {
@@ -524,7 +538,7 @@ footer .copyright p {
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
     #search {
         display: none;
     }
@@ -570,10 +584,9 @@ footer .copyright p {
         position: absolute;
         width: 100%;
         text-align: right;
-        transition: 1s ease;
         z-index: 1;
         background-color: #b3965a;
-        opacity: 0;
+        display: none;
     }
 
     .sub-menu a {
@@ -596,7 +609,7 @@ footer .copyright p {
     }
 
     #check:checked ~ .sub-menu {
-        opacity: 1;
+        display: block;
     }
 
     .drop {
@@ -616,7 +629,6 @@ footer .copyright p {
         animation: drop ease-in-out forwards;
         animation-duration: 1s;
         transform-origin: top center;
-        opacity: 0.6;
     }
 
     @keyframes drop {
@@ -637,7 +649,7 @@ footer .copyright p {
         color: white;
         font-size: 22px;
         padding: 20px;
-        text-align: left;
+        text-align: right;
         text-decoration: none;
     }
 
@@ -659,6 +671,42 @@ footer .copyright p {
         display: flex;
         flex-direction: row;
         justify-content: center;
+    }
+
+    .main {
+        height: 800px;
+        width: 100%;   
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap; 
+    }
+
+    .product-categories .product-title h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .product-categories .product-title span {
+        display: flex;
+        justify-content: center;
+    }
+
+    .product-contain .phone-img img {
+        transform: translateX(-20%);
+        height: 300px;
+        width: 300px;
+    }
+
+    .product-contain .price-and-buy .price {
+        transform: translate(-300%, 70%);
+    } 
+
+    .product-contain .price-and-buy .buy-options {
+        transform: translate(-275%, 15%);
+    }
+
+    .product-contain .price-and-buy .buy-options #buy {
+        margin-top: 30px;
     }
 
     footer .grid-contain {

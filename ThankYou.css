@@ -33,8 +33,19 @@ span.price {
     font-size: 30px;
 
 }
-.checked{
+.checked {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.lead {
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    .checked img {
+        height: 350px;
+        width: 375px;
+    }
 }

@@ -495,13 +495,11 @@ footer .copyright p {
     
     .sub-menu {
         position: absolute;
-        width: 50%;
-        left: 50%;
+        width: 100%;
         text-align: right;
-        transition: 1s ease;
         z-index: 1;
         background-color: #b3965a;
-        opacity: 0;
+        display: none;
     }
 
     .sub-menu a {
@@ -524,7 +522,7 @@ footer .copyright p {
     }
 
     #check:checked ~ .sub-menu {
-        opacity: 1;
+        display: block;
     }
 
     .drop {

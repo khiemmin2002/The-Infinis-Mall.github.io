@@ -45,7 +45,7 @@ html, body {
     padding: 5px 10px;
 }
 
-#search input[type=text], input:focus  {
+#search input[type=text], input:focus {
     font-size: 16px;
     border: none;
     padding-right: 0;
@@ -151,10 +151,14 @@ html, body {
     display: block;
 }
 
-
+/* Setting active status for the current page */
 .active {
     background-color: dodgerblue;
     color: white;
+}
+
+#special {
+    width: 145px;
 }
 
 /* Setting the content */
@@ -166,62 +170,63 @@ html, body {
 }
 
 
-.group{
-    padding: 30px;
+.group {
     text-align: center;
     background: #fcf9f7;
 }
 
-.header{
-    padding-top: 60px;
+.header {
+    padding-top: 40px;
     color:#c4a465;
     font-size: 20px;
     margin: auto;
     line-height: 50px;
 }
 
-.sub-container{
-    max-width: 2000px;
+.sub-container {
+    width: 100%;
     margin: auto;
-    padding: 48px0;
+    padding: 48px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.teams{
-    margin: 10px;
+.teams {
+    margin-left: 100px;
+    margin-right: 100px;
     padding: 60px;
     max-width: 50%;
     cursor: pointer;
     transition: 0.4s;
-    box-sizing: border-box;
 }
 
-.teams img{
-    width: 200px;
-    height: 200px;
+.teams img {
+    width: 300px;
+    height: 300px;
 }
 
-.name{
+.name {
     padding-top: 10px;
     font-weight: bold;
     font-size: 25px;
     text-transform: uppercase;
+    text-align: center;
 }
 
-.id{
+.id {
     font-size: 20px;  
     font-style: italic;
     color: #888;
+    text-align: center;
 }
 
-.about{
+.about {
     padding-top: 15px;
     font-size: 18px;
     font-weight: lighter;
+    text-align: center;
 }
-
 
 /* Setting the footer */
 footer {
@@ -394,6 +399,16 @@ footer .copyright p {
 
 /* Making the page responsive */
 @media screen and (max-width: 1200px) {
+    .teams {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .teams img {
+        height: 300px;
+        width: 300px;
+    }
+
     footer ul li .fa-facebook-f {
         color: #3b5998;
     }
@@ -455,13 +470,11 @@ footer .copyright p {
     
     .sub-menu {
         position: absolute;
-        width: 50%;
-        left: 50%;
+        width: 100%;
         text-align: right;
-        transition: 1s ease;
         z-index: 1;
         background-color: #b3965a;
-        opacity: 0;
+        display: none;
     }
 
     .sub-menu a {
@@ -484,7 +497,7 @@ footer .copyright p {
     }
 
     #check:checked ~ .sub-menu {
-        opacity: 1;
+        display: block;
     }
 
     .drop {
@@ -538,25 +551,18 @@ footer .copyright p {
         width: 100%;
     }
 
-    .main {
-        width: 100%;
+    .sub-container {
+        max-width: 100%;
     }
 
-    .h-contain {
+    .teams img {
+        transform: translateX(-45%);
+    }
+
+    .name, .id, .about {
         display: flex;
+        flex-direction: row;
         justify-content: center;
-    }
-
-    #country {
-        width: 150px;
-    }
-
-    .form .user-details .input-box .box {
-        width: 150px;
-    }
-
-    input[type=reset], input[type=submit] {
-        margin-left: 5px;
     }
 
     footer .grid-contain {
