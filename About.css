@@ -209,7 +209,7 @@ html, body {
 .intro .background {
     width: 900px;
     height: 500px;
-    background-image: url(images/AboutMall.jpg);
+    background-image: url(images/About.jpg);
     background-size: cover;
     background-position: center;
 }
