@@ -197,6 +197,7 @@ html, body {
     width: 100%;
     height: auto;
     background-color: #fcf9f7;
+    padding-bottom: 60px;
 }
 
 .content {
