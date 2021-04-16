@@ -277,11 +277,13 @@ html, body {
     left: 10%;
     width: 350px;
     height: 320px;
+    margin-top: 50px;
     background-image: url(images/monthly.jpg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-/* Hahahahaahah */
+/* Membership */
 .detail .membership {
     display: flex;
 }
@@ -321,8 +323,9 @@ html, body {
     left: 10%;
     width: 350px;
     height: 320px;
-    background-image: url(images/images.png);
-    background-size: cover;
+    background-image: url(images/fees2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: right 30px;
 }
 
@@ -497,20 +500,6 @@ footer .copyright p {
 
 /* Making the page responsive */
 @media screen and (max-width: 1200px) {
-    .featured-stores, .featured-products, .new-stores, .new-products {
-        flex-wrap: wrap;
-        max-width: 100%;
-    }
-
-    .store {
-        min-width: 200px;
-        margin: 10px;
-    }
-
-    .overlay {
-        font-size: 24px;
-    }
-
     footer ul li .fa-facebook-f {
         color: #3b5998;
     }
@@ -572,13 +561,11 @@ footer .copyright p {
     
     .sub-menu {
         position: absolute;
-        width: 50%;
-        left: 50%;
+        width: 100%;
         text-align: right;
-        transition: 1s ease;
         z-index: 1;
         background-color: #b3965a;
-        opacity: 0;
+        display: none;
     }
 
     .sub-menu a {
@@ -601,7 +588,7 @@ footer .copyright p {
     }
 
     #check:checked ~ .sub-menu {
-        opacity: 1;
+        display: block;
     }
 
     .drop {
@@ -653,16 +640,51 @@ footer .copyright p {
     .drop:hover .items {
         display: block;
         width: 100%;
-    }    
-
-    .featured-stores, .featured-products, .new-stores, .new-products {
+    }   
+    
+    .title {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
 
-    .overlay {
-        font-size: 20px;
+    .title .head-img {
+        width: 375px;
+        height: 250px;
+        transform: translateX(-3.5%);
+    }
+
+    .detail .monthly {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .detail .monthly .content {
+        width: 375px;
+        transform: translateX(-20%);
+    }
+
+    .detail .monthly .monthly-img {
+        width: 375px;
+        height: 350px;
+        transform: translateX(-15%);
+    }
+
+    .membership {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .detail .membership .membership-img {
+        width: 375px;
+        height: 425px;
+        transform: translateX(-20%);
+        margin-bottom: 30px;
     }
 
     footer .grid-contain {
@@ -718,5 +740,5 @@ footer .copyright p {
 
     footer .copyright {
         margin-top: 60px;
-    } 
+    }
 }
