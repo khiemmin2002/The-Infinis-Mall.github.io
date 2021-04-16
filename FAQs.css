@@ -1,6 +1,31 @@
 @font-face {
     font-family: "Poppins";
-    src: url(Poppins-Regular.ttf);
+    src: url(Fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: "PoppinsReg";
+    src: url(Fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "PoppinsMed";
+    src: url(Fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: "PoppinsLightBold";
+    src: url(Fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Lobster";
+    src: url(Fonts/Lobster-Regular.ttf);
+}
+
+@font-face {
+    font-family: "PopsLight";
+    src: url(Fonts/Poppins-Light.ttf);
 }
 
 * {
@@ -169,6 +194,7 @@ html, body {
 }
 
 .box {
+    margin: 16px 0;
     width: 100%;   
     height: 100%;     
     background: #fff;
@@ -183,6 +209,15 @@ html, body {
     color: #fff;
     text-align: center;
     font-family: "Poppins";
+}
+
+.box strong {
+    font-family: "PoppinsLightBold", sans-serif;
+    font-size: 16px;
+}
+
+.box p {
+    font-family: "PoppinsMed", sans-serif;
 }
 
 .faqs {
@@ -207,7 +242,7 @@ details {
 }
 
 details summary {
-outline: none;
+    outline: none;
 }
 
 /* Setting the footer */
@@ -232,6 +267,7 @@ footer .grid-contain .grid-item-1 {
 }
 
 footer .grid-contain .grid-item-1 .item-1-content {
+    font-family: "Poppins", sans-serif;
     text-align: center;
     margin-top: 15px;
 }
@@ -285,12 +321,14 @@ footer .grid-contain .grid-item-3 {
 }
 
 footer .grid-contain .grid-item-3 h3 {
+    font-family: "Poppins", sans-serif;
     text-align: center;
     font-size: 25px;
     margin-bottom: 20px;
 }
 
 footer .grid-contain .grid-item-3 p {
+    font-family: "PopsLight" ,sans-serif;
     text-align: left;
     margin: 0;
     font-size: 16px;
@@ -314,7 +352,7 @@ footer .grid-contain .grid-item-3 .address #detail-2 .fas {
 
 footer .grid-contain .grid-item-3 #detail-2 {
     margin-top: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "PopsLight", sans-serif;
 }
 
 footer ul {
@@ -376,6 +414,7 @@ footer .copyright {
 }
 
 footer .copyright p {
+    font-family: "PopsLight", sans-serif;
     margin-top: 0;
 }
 

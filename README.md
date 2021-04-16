@@ -3,7 +3,7 @@ This is our official website for Assignment 1: The Infinis Mall. This website is
 
 Link: https://khiemmin2002.github.io/The-Infinis-Mall.github.io/
 
-Apple Logo img https://www.logolynx.com/images/logolynx/5b/5bc63fc882d3fa02619c0a702a96c820.png
+Apple Logo img https://www.48hourslogo.com/48hourslogo_data/2018/07/11/AppleLogo1531264192.png
 
 Leicester City Logo img <https://lh3.googleusercontent.com/QQv6eMD5J47tE-McZs9luLSPuJvImvuZu5MYb7lPrIqJBLZoLeypj0Ad4lc5ribP6vw8=s85>
 
@@ -18,6 +18,30 @@ Microsoft Logo img <https://lh3.googleusercontent.com/tQIKGP5CjgHVA5tn2MSTZbu3lJ
 Rolex Logo img <https://thumuadonghohieu.com/wp-content/uploads/2019/03/Logo-Rolex.jpg>
 
 Louis Vuitton Logo img <https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Louis_Vuitton_logo_and_wordmark.svg/840px-Louis_Vuitton_logo_and_wordmark.svg.png>
+
+Lego img <https://3dwarehouse.sketchup.com/warehouse/v1.0/publiccontent/758f1681-a024-4bc7-84ff-95d1dc3ef8b0>
+
+Lock&Lock Logo img <https://m.media-amazon.com/images/S/stores-image-uploads-eu-prod/4/AmazonStores/A21TJRUUN4KGV/9d94b6d22a68391043437ea957f40f40.w1800.h1260.jpg>
+
+iPhone 12 Pro Max Featured <https://sc01.alicdn.com/kf/H683ed8e8611f45c7a9b87ed6962d17dbr.jpg_640x640.jpg>
+
+Leicester City Jersey Featured <https://www.soccerlord.se/wp-content/uploads/2018/10/Leicester-City-Home-Football-Shirt-20-21.jpg>
+
+Speed 3.0 Sneakers Featured <http://parastore20.hgodo.com/static/goods/files3/49d8d5ddc23ab3e1c5c2a71cb5679886/P00556290/4718470374559087.jpg>
+
+LA Lakers Jerseys Featured <https://www.nbaprojerseys.shop/images/los-angeles-lakers/kobe-bryant-jersey-city-black-honors-kobe-.jpg>
+
+Big Bang Meca-10 Featured <https://da8t9y7300ntx.cloudfront.net/wp-content/uploads/sites/15/2020/06/414.MX.1138.RX.jpg>
+
+Xbox Series X New <https://images.wehkamp.nl/i/wehkamp/16644562_pb_01/microsoft-xbox-series-x-zwart-0889842640809.jpg?w=2048>
+
+Lady-Datejust Gold New <http://www.replikarolexure.com/wp-content/uploads/2017/11/m279138rbr-0002-300x300.png>
+
+Keepall XS New <https://image5.brandear.jp/image1/0/34766823_1.jpg>
+
+Colosseum New <https://www.lego.com/en-us/product/colosseum-10276>
+
+Top Class Container New <https://images-na.ssl-images-amazon.com/images/I/61OG%2Bmmd0mL._SL1126_.jpg>
 
 Apple Store <https://images.adsttc.com/media/images/5df2/5960/3312/fdaa/6a00/0177/newsletter/NY_Interior_2284_fp706720.jpg?1576163673>
 
@@ -68,3 +92,11 @@ AirPods Pro img <https://limota.vn/wp-content/uploads/2020/01/Apple-AirPods-Pro.
 Macbook Air M1 img https://ben.com.vn/Content/Images/Products/macbook-pro-silver-m1-2020.jpeg
 
 My Account img <https://pbs.twimg.com/profile_images/1172983379442241541/O-0ENfTd.jpg>
+
+About Mall background img <https://www.twincities.com/wp-content/uploads/2015/10/wpid-20140318__20140318MOA_expansion2.jpg>
+
+Fees backgroung <https://fedena.com/blog/wp-content/uploads/2018/06/exam.png>
+
+Fees Monthly background <https://www.adobe.com/express/create/calendar/media_1027b90e37ed62fe2ad86fe08347da0b28a9c63d0.png?width=2000&format=webply&optimize=medium>
+
+Fees Membership background <https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJHXYc56qEj62NK2yBN7wriTOB0PIwklTW5A&usqp=CAU>

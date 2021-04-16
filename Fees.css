@@ -320,7 +320,7 @@ html, body {
 .detail .membership .membership-img {
     position: relative;
     top: 3em;
-    left: 10%;
+    left: 5%;
     width: 350px;
     height: 320px;
     background-image: url(images/fees2.png);
@@ -351,6 +351,7 @@ footer .grid-contain .grid-item-1 {
 }
 
 footer .grid-contain .grid-item-1 .item-1-content {
+    font-family: "Poppins", sans-serif;
     text-align: center;
     margin-top: 15px;
 }
@@ -404,12 +405,14 @@ footer .grid-contain .grid-item-3 {
 }
 
 footer .grid-contain .grid-item-3 h3 {
+    font-family: "Poppins", sans-serif;
     text-align: center;
     font-size: 25px;
     margin-bottom: 20px;
 }
 
 footer .grid-contain .grid-item-3 p {
+    font-family: "PoppinsReg", sans-serif;
     text-align: left;
     margin: 0;
     font-size: 16px;
@@ -433,7 +436,7 @@ footer .grid-contain .grid-item-3 .address #detail-2 .fas {
 
 footer .grid-contain .grid-item-3 #detail-2 {
     margin-top: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "PoppinsReg", sans-serif;
 }
 
 footer ul {
@@ -495,6 +498,7 @@ footer .copyright {
 }
 
 footer .copyright p {
+    font-family: "PoppinsReg", sans-serif;
     margin-top: 0;
 }
 

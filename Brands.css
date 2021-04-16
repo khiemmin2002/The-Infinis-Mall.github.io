@@ -1,3 +1,33 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(Fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: "PoppinsReg";
+    src: url(Fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "PoppinsMed";
+    src: url(Fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: "PoppinsLightBold";
+    src: url(Fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Lobster";
+    src: url(Fonts/Lobster-Regular.ttf);
+}
+
+@font-face {
+    font-family: "PopsLight";
+    src: url(Fonts/Poppins-Light.ttf);
+}
+
 * {
     box-sizing: border-box;
 }
@@ -184,7 +214,7 @@ html, body {
 }
 
 .cate-title h2 {
-    font-family: 'Pop-bold';
+    font-family: 'Poppins', sans-serif;
     font-size: 40px;
 }
 
@@ -228,7 +258,9 @@ html, body {
 }
 
 .categories .store .store-description .type-of-store {
+    margin-top: 0;
     margin-bottom: 15px;
+    font-family: "PoppinsReg", sans-serif;
     font-weight: 300;
     font-size: 15px;
 }
@@ -239,13 +271,12 @@ html, body {
 }
 
 .categories .store .store-description .store-name {
-    font-family: Lobster;
+    font-family: "Lobster";
     font-size: 25px;
     font-weight: 700;
     text-indent: 5px;
 }
 
-/* Setting the footer */
 footer {
     overflow: hidden;
     background-color: black;
@@ -267,6 +298,7 @@ footer .grid-contain .grid-item-1 {
 }
 
 footer .grid-contain .grid-item-1 .item-1-content {
+    font-family: "Poppins", sans-serif;
     text-align: center;
     margin-top: 15px;
 }
@@ -320,12 +352,14 @@ footer .grid-contain .grid-item-3 {
 }
 
 footer .grid-contain .grid-item-3 h3 {
+    font-family: "Poppins", sans-serif;
     text-align: center;
     font-size: 25px;
     margin-bottom: 20px;
 }
 
 footer .grid-contain .grid-item-3 p {
+    font-family: "PoppinsReg", sans-serif;
     text-align: left;
     margin: 0;
     font-size: 16px;
@@ -349,7 +383,7 @@ footer .grid-contain .grid-item-3 .address #detail-2 .fas {
 
 footer .grid-contain .grid-item-3 #detail-2 {
     margin-top: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "PoppinsReg", sans-serif;
 }
 
 footer ul {
@@ -411,6 +445,7 @@ footer .copyright {
 }
 
 footer .copyright p {
+    font-family: "PoppinsReg", sans-serif;
     margin-top: 0;
 }
 

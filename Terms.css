@@ -1,3 +1,33 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(Fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: "PoppinsReg";
+    src: url(Fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "PoppinsMed";
+    src: url(Fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: "PoppinsLightBold";
+    src: url(Fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Lobster";
+    src: url(Fonts/Lobster-Regular.ttf);
+}
+
+@font-face {
+    font-family: "PopsLight";
+    src: url(Fonts/Poppins-Light.ttf);
+}
+
 * {
     box-sizing: border-box;
 }
@@ -167,6 +197,7 @@ html, body {
     width: 100%;
     height: auto;
     background-color: #fcf9f7;
+    padding-bottom: 60px;
 }
 
 .content {
@@ -176,6 +207,7 @@ html, body {
 }
 
 h1 {
+    font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
     color: #c4a465;
@@ -206,6 +238,7 @@ h1 {
     display: block;
     padding: 16px;
     width: 80%;
+    font-family: "PoppinsReg", sans-serif;
     text-decoration: none;
     font-size: 12px;
     border: 1px solid #d4d0d0;
@@ -241,21 +274,22 @@ h1 {
 
 .term-content .term-head h2 {
     margin: 80px 0 20px 20px;
-    font-family: Helvetica;
+    font-family: "PoppinsLightBold", sans-serif;
     font-weight: 700;
     font-size: 25px;
-    color: #473f13c9;
+    color: #6e5b1b85;
 }
 
 .term-content .term-body {
     padding: 20px;
     background: #ffffff;
     border: 1px solid #d4d0d0;
-    font-family: 'Roboto';
+    font-family: "PoppinsMed", sans-serif;
     text-align: justify;
 }
 
 .term-content .term-body h3 {
+    font-family: "PoppinsLightBold", sans-serif;
     margin-top: 35px;
 }
 
@@ -306,6 +340,7 @@ footer .grid-contain .grid-item-1 {
 }
 
 footer .grid-contain .grid-item-1 .item-1-content {
+    font-family: "Poppins", sans-serif;
     text-align: center;
     margin-top: 15px;
 }
@@ -359,12 +394,14 @@ footer .grid-contain .grid-item-3 {
 }
 
 footer .grid-contain .grid-item-3 h3 {
+    font-family: "Poppins", sans-serif;
     text-align: center;
     font-size: 25px;
     margin-bottom: 20px;
 }
 
 footer .grid-contain .grid-item-3 p {
+    font-family: "PoppinsReg", sans-serif;
     text-align: left;
     margin: 0;
     font-size: 16px;
@@ -388,7 +425,7 @@ footer .grid-contain .grid-item-3 .address #detail-2 .fas {
 
 footer .grid-contain .grid-item-3 #detail-2 {
     margin-top: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "PoppinsReg", sans-serif;
 }
 
 footer ul {
@@ -450,6 +487,7 @@ footer .copyright {
 }
 
 footer .copyright p {
+    font-family: "PoppinsReg", sans-serif;
     margin-top: 0;
 }
 

@@ -209,13 +209,14 @@ html, body {
 .intro .background {
     width: 900px;
     height: 500px;
-    background-image: url(images/About.jpg);
+    background-image: url(images/AboutMall.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .intro .title {
     padding: 50px;
+    position: relative;
     top: 70px;
 } 
 
@@ -250,7 +251,7 @@ html, body {
     font-size: 16px;
 }
 
-.description p {
+.description #top {
     font-size: 20px;
 }
 
@@ -433,7 +434,7 @@ footer .copyright p {
 }
 
 /* Making the page responsive */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1024px) {
     .head-categories {
         display: flex;
         justify-content: center;
@@ -469,7 +470,7 @@ footer .copyright p {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 375px) {
     #search {
         display: none;
     }
@@ -515,9 +516,10 @@ footer .copyright p {
         position: absolute;
         width: 100%;
         text-align: right;
+        transition: 1s ease;
         z-index: 1;
         background-color: #b3965a;
-        display: none;
+        opacity: 0;
     }
 
     .sub-menu a {
@@ -540,7 +542,7 @@ footer .copyright p {
     }
 
     #check:checked ~ .sub-menu {
-        display: block;
+        opacity: 1;
     }
 
     .drop {
@@ -560,6 +562,7 @@ footer .copyright p {
         animation: drop ease-in-out forwards;
         animation-duration: 1s;
         transform-origin: top center;
+        opacity: 0.6;
     }
 
     @keyframes drop {
@@ -580,7 +583,7 @@ footer .copyright p {
         color: white;
         font-size: 22px;
         padding: 20px;
-        text-align: right;
+        text-align: left;
         text-decoration: none;
     }
 
@@ -602,50 +605,6 @@ footer .copyright p {
         display: flex;
         flex-direction: row;
         justify-content: center;
-    }
-
-    .intro {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .intro .background {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        width: 100%;
-        height: 300px;
-    }
-
-    .intro .title {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .description {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .description .top-descrip {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 350px;
-        transform: translateX(-40%);
-    }
-
-    .description .second-descrip {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 350px;
-        transform: translateX(-40%);
     }
 
     footer .grid-contain {
@@ -701,5 +660,5 @@ footer .copyright p {
 
     footer .copyright {
         margin-top: 60px;
-    }  
+    } 
 }

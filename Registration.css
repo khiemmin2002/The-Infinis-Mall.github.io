@@ -1,3 +1,33 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(Fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: "PoppinsReg";
+    src: url(Fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "PoppinsMed";
+    src: url(Fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: "PoppinsLightBold";
+    src: url(Fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Lobster";
+    src: url(Fonts/Lobster-Regular.ttf);
+}
+
+@font-face {
+    font-family: "PopsLight";
+    src: url(Fonts/Poppins-Light.ttf);
+}
+
 * {
     box-sizing: border-box;
 }
@@ -186,7 +216,12 @@ h1 {
     text-align: center;
 }
 
+.h-contain h1 {
+    font-family: "Poppins", sans-serif;
+}
+
 .form {
+    margin-bottom: 50px;
     max-width: 700px;
     width: 100%;
     background: #fff;
@@ -203,6 +238,10 @@ h1 {
     color: #333;
     text-align: center;
 }
+
+.form .form-title h2 {
+    font-family: "PoppinsLightBold", sans-serif;
+}
   
 .form .user-details {
     width: 100%;
@@ -218,6 +257,7 @@ h1 {
     width: 200px;
     color: #333;
     margin-right: 10px;
+    font-family: "PoppinsReg", sans-serif;
     font-size: 16px;
 }
 
@@ -226,8 +266,9 @@ h1 {
     padding: 10px 10px;
     font-size: 15px; 
     border: 50px;
-    background: gray;
+    background: #c4a465;
     color: #fff;
+    font-family: "Poppins", sans-serif;
     cursor: pointer;
     border-radius: 20px;
 }
@@ -262,6 +303,7 @@ footer .grid-contain .grid-item-1 {
 }
 
 footer .grid-contain .grid-item-1 .item-1-content {
+    font-family: "Poppins", sans-serif;
     text-align: center;
     margin-top: 15px;
 }
@@ -315,12 +357,14 @@ footer .grid-contain .grid-item-3 {
 }
 
 footer .grid-contain .grid-item-3 h3 {
+    font-family: "Poppins", sans-serif;
     text-align: center;
     font-size: 25px;
     margin-bottom: 20px;
 }
 
 footer .grid-contain .grid-item-3 p {
+    font-family: "PoppinsReg", sans-serif;
     text-align: left;
     margin: 0;
     font-size: 16px;
@@ -344,7 +388,7 @@ footer .grid-contain .grid-item-3 .address #detail-2 .fas {
 
 footer .grid-contain .grid-item-3 #detail-2 {
     margin-top: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "PoppinsReg", sans-serif;
 }
 
 footer ul {
@@ -406,6 +450,7 @@ footer .copyright {
 }
 
 footer .copyright p {
+    font-family: "PoppinsReg", sans-serif;
     margin-top: 0;
 }
 
