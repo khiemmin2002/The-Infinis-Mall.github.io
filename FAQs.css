@@ -238,7 +238,9 @@ details {
     font-size: 14px;
     letter-spacing: 1px;
     cursor: pointer;
-
+}
+details p {
+    font-family: "PopsLight", sans-serif;
 }
 
 details summary {
@@ -328,7 +330,7 @@ footer .grid-contain .grid-item-3 h3 {
 }
 
 footer .grid-contain .grid-item-3 p {
-    font-family: "PopsLight" ,sans-serif;
+    font-family: "PoppinsReg" ,sans-serif;
     text-align: left;
     margin: 0;
     font-size: 16px;
@@ -352,7 +354,7 @@ footer .grid-contain .grid-item-3 .address #detail-2 .fas {
 
 footer .grid-contain .grid-item-3 #detail-2 {
     margin-top: 10px;
-    font-family: "PopsLight", sans-serif;
+    font-family: "PoppinsReg", sans-serif;
 }
 
 footer ul {
@@ -414,7 +416,7 @@ footer .copyright {
 }
 
 footer .copyright p {
-    font-family: "PopsLight", sans-serif;
+    font-family: "PoppinsReg", sans-serif;
     margin-top: 0;
 }
 
