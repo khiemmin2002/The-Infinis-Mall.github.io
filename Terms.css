@@ -558,6 +558,7 @@ footer .copyright p {
         text-align: right;
         z-index: 1;
         background-color: #b3965a;
+        display: none;
     }
 
     .sub-menu a {
