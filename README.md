@@ -3,6 +3,8 @@ This is our official website for Assignment 1: The Infinis Mall. This website is
 
 Link: https://khiemmin2002.github.io/The-Infinis-Mall.github.io/
 
+Link to my account: <https://khiemmin2002.github.io/The-Infinis-Mall.github.io/Profile.html>
+
 Apple Logo img https://www.48hourslogo.com/48hourslogo_data/2018/07/11/AppleLogo1531264192.png
 
 Leicester City Logo img <https://lh3.googleusercontent.com/QQv6eMD5J47tE-McZs9luLSPuJvImvuZu5MYb7lPrIqJBLZoLeypj0Ad4lc5ribP6vw8=s85>
