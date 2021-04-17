@@ -100,3 +100,5 @@ Fees backgroung <https://fedena.com/blog/wp-content/uploads/2018/06/exam.png>
 Fees Monthly background <https://www.adobe.com/express/create/calendar/media_1027b90e37ed62fe2ad86fe08347da0b28a9c63d0.png?width=2000&format=webply&optimize=medium>
 
 Fees Membership background <https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJHXYc56qEj62NK2yBN7wriTOB0PIwklTW5A&usqp=CAU>
+
+FAQs content <https://mallofamerica.com/FAQ>
