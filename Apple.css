@@ -505,6 +505,102 @@ footer .copyright p {
     margin-top: 0;
 }
 
+/* Cookies */
+.cookies-wrap {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.cookies-wrap.hide {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+}
+
+.cookies-pop-up {
+    position: relative;
+    left: 34.5%;
+    max-width: 500px;
+    background: #b49556;
+    padding: 15px 18px;
+    box-shadow: 2px 3px 5px 2px rgb(68, 68, 68), -2px -3px 5px 3px rgb(71, 71, 71);
+}
+
+.cookies-pop-up .cookies-content {
+    padding: 10px 12px;
+    background: #fff;
+}
+
+.cookies-pop-up .cookies-content h2 {
+    margin: 5px 0 0 0;
+    font-size: 23px;
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+}
+
+.cookies-pop-up .cookies-content p {
+    margin: 10px 0 18px 0;
+    font-family: "PoppinsReg", sans-serif;
+    font-size: 14px;
+}
+
+.cookies-pop-up .cookies-content a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.cookies-pop-up .cookies-content a:hover {
+    text-decoration: underline;
+}
+
+.cookies-pop-up .cookies-content a:visited {
+    color: purple;
+}
+
+.cookies-pop-up .cookies-content .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cookies-pop-up .cookies-content .buttons #accept:hover {
+    transform: translateY(-5px);
+    transition: all 0.5s;
+}
+
+.cookies-pop-up .cookies-content .buttons #decline:hover {
+    transform: translateY(-5px);
+    transition: all 0.5s;
+}
+
+.cookies-pop-up .cookies-content .buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    font-family: "PoppinsLightBold", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background: #c4a465;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.cookies-pop-up .cookies-content .buttons #accept {
+    background: rgb(38, 185, 38);
+}
+.cookies-pop-up .cookies-content .buttons #decline {
+    background: rgb(218, 60, 60);
+}
+
 /* Making the page responsive */
 @media screen and (max-width: 1200px) {
     footer ul li .fa-facebook-f {
