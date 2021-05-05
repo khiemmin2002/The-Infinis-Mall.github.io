@@ -3,7 +3,11 @@ This is our official website for Assignment 1: The Infinis Mall. This website is
 
 Link: https://khiemmin2002.github.io/The-Infinis-Mall.github.io/
 
-Link to my account: https://khiemmin2002.github.io/The-Infinis-Mall.github.io/Profile.html
+Assignment 2 Contribution
+_ Giang Nhật Khánh: 25%.
+_ Mìn Chi Gia Khiêm: 25%.
+_ Nguyễn Phan Nam: 125%.
+_ Trần Hoàng Phúc: 25%.
 
 Apple Logo img https://www.48hourslogo.com/48hourslogo_data/2018/07/11/AppleLogo1531264192.png
 
