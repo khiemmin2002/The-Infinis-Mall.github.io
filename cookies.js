@@ -1,3 +1,4 @@
+/* Problem 1 */
 let cookiesBox = document.querySelector(".cookies-wrap");
 acceptBtn = cookiesBox.querySelector("#accept"); // Setting the accept button
 declineBtn = cookiesBox.querySelector("#decline"); // Setting the decline button

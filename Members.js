@@ -1,3 +1,4 @@
+/* Problem 3 */
 // Opening the modal
 let modalOpener = document.querySelectorAll(".teams");
 // When the user click on each modal box, each member's information will be display

@@ -1,3 +1,4 @@
+/* Problem 5 */
 /* Making a function for checking password that the user provide */
 function passwordChecking() {
     let username = document.getElementById("username").value;
