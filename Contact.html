@@ -12,6 +12,7 @@
         <meta property="og:image" content="#">
         <meta property="og:description" content="#">
         <link rel="stylesheet" href="Contact.css">
+        
         <script src="https://kit.fontawesome.com/5143a5dc4e.js" crossorigin="anonymous"></script>
         <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
@@ -57,7 +58,7 @@
                             <i class="fas fa-user"></i>
                         </button>
                         <div class="dropdown-content">
-                            <a href="Login.html" class="login-account">Login</a>
+                            <a href="Login.html">Login</a>
                             <a href="Registration.html">Join our family</a>
                         </div>
                     </div><!--Account (Dropdown)-->
@@ -91,7 +92,7 @@
                             <div class="drop">
                                 <a href="javascript:void(0)">Account</a>
                                 <div class="items">
-                                    <a href="Login.html" class="login-account">Login</a>
+                                    <a href="Login.html">Login</a>
                                     <a href="Registration.html">Join our family</a>
                                 </div>
                             </div>
@@ -106,7 +107,9 @@
                     </div>
                 </div>
             <div class="form">
-                <form action="index.html">
+          
+
+                <form action="index.html" onsubmit="return validation()">
                     <div class="form-title">
                         <h2>Contact Form</h2>
                     </div>
@@ -120,62 +123,69 @@
                         </div> 
                         <div class="input-box">
                             <label for="detail">Full Name</label>
-                            <input type="text" name="first-name" id="first-name" placeholder="Enter your full name" maxlength="50" required>
+                            <input type="text" name="name" id="name" placeholder="Enter your full name" maxlength="50" required>
                         </div>
+
                         <div class="input-box">
                             <label for="detail">Email Address</label>
                             <input type="text" name="email" id="email" placeholder="Enter your email" maxlength="50" required>
                         </div>
+
                         <div class="input-box">
                             <label for="detail">Phone Number</label>
-                            <input type="tel" name="phone" id="phone" maxlength="50" placeholder="1234-567-890" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" required>
+                            <input type="tel" name="phone" id="phone" maxlength="50" placeholder="1234-567-890" required>
                         </div>
+
                         <div class="input-box">
                             <label for="detail">Preferred Contact Method</label><br>
                             <label class="radio">Phone
-                                <input type="radio" name="radio">
+                                <input type="radio" value="contact" name="radio">
                                 <span class="radiomark"></span>
                             </label>
                             <label class="radio">Email
-                                <input type="radio" name="radio">
+                                <input type="radio" value="contact" name="radio">
                                 <span class="radiomark"></span>
                             </label>
                         </div>
+
                         <div class="input-box">
                             <label for="detail">Contact Days</label><br>
                         </div>
                         <label class="container">Monday
-                            <input type="checkbox">
+                            <input type="checkbox" id="mon">
                             <span class="checkmark"></span>
                         </label>
                         <label class="container">Tuesday
-                            <input type="checkbox">
+                            <input type="checkbox" id="tue">
                             <span class="checkmark"></span>
                         </label>
                         <label class="container">Wednesday
-                            <input type="checkbox">
+                            <input type="checkbox" id="wed">
                             <span class="checkmark"></span>
                         </label>
                         <label class="container">Thursday
-                            <input type="checkbox">
+                            <input type="checkbox" id="thu">
                             <span class="checkmark"></span>
                         </label>
                         <label class="container">Friday
-                            <input type="checkbox">
+                            <input type="checkbox" id="fri">
                             <span class="checkmark"></span>
                         </label>
                         <label class="container">Saturday
-                            <input type="checkbox">
+                            <input type="checkbox" id="sat">
                             <span class="checkmark"></span>
                         </label>
                         <label class="container">Sunday
-                            <input type="checkbox">
+                            <input type="checkbox" id="sun">
                             <span class="checkmark"></span>
                         </label>
+
                         <div class="message">
                             <label for="detail">Your Message</label><br>
-                            <textarea cols="40" rows="10" required id="message" name="message" placeholder="Write your message"></textarea>
+                            <textarea cols="40" rows="10" id="message" name="message" placeholder="Write your message"></textarea>
                         </div>
+                        <div id="error_message"></div>
+
                         <div class="input-box">
                             <input type="reset" value="Clear" class="box">
                             <input type="submit" value="Submit" class="box">
@@ -183,6 +193,8 @@
                     </div>  
                 </form>
             </div>   
+
+
             <footer>
                 <div class="grid-contain">
                     <div class="grid-item-1">
@@ -213,20 +225,7 @@
                     <p>&copy; 2021 The Infinis Mall. All Rights Reserved.</p>
                 </div>
             </footer>
-        </div>
-        <div id="cookies-bg" class="cookies-wrap">
-            <div id="cookies-box" class="cookies-pop-up">
-                <div class="cookies-content">
-                    <h2>We are using cookies for our website</h2>
-                    <p>Cookies are used to improve your browsing experience. By using the site you agree to the <a href="Terms.html">Terms and Conditions</a>.</p>
-                    <div class="buttons">
-                        <button class="item" id="accept">I Accept</button>
-                        <button class="item" id="decline">No, thanks!</button>
-                    </div>
-                </div><!--Content-->
-            </div><!--Cookies-box-->
-        </div><!--Cookies-wrap-->
-        <script src="cookies.js"></script>
-        <script src="status.js"></script>
+        </div>  
+        <script src="Contact.js"></script> 
 	</body>
 </html>
