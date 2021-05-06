@@ -3,12 +3,6 @@ This is our official website for Assignment 1: The Infinis Mall. This website is
 
 Link: https://khiemmin2002.github.io/The-Infinis-Mall.github.io/
 
-Assignment 2 Contribution
-_ Giang Nhật Khánh: 25%.
-_ Mìn Chi Gia Khiêm: 25%.
-_ Nguyễn Phan Nam: 125%.
-_ Trần Hoàng Phúc: 25%.
-
 Apple Logo img https://www.48hourslogo.com/48hourslogo_data/2018/07/11/AppleLogo1531264192.png
 
 Leicester City Logo img <https://lh3.googleusercontent.com/QQv6eMD5J47tE-McZs9luLSPuJvImvuZu5MYb7lPrIqJBLZoLeypj0Ad4lc5ribP6vw8=s85>
@@ -29,6 +23,16 @@ Lego img <https://3dwarehouse.sketchup.com/warehouse/v1.0/publiccontent/758f1681
 
 Lock&Lock Logo img <https://m.media-amazon.com/images/S/stores-image-uploads-eu-prod/4/AmazonStores/A21TJRUUN4KGV/9d94b6d22a68391043437ea957f40f40.w1800.h1260.jpg>
 
+Nike Logo img http://4.bp.blogspot.com/-fUhZAshgaQs/TrPTppjQ30I/AAAAAAAAAHg/h08FkJYmp1I/s200/nike-logo-white-background.jpg
+
+Adidas Logo img https://i.pinimg.com/originals/57/58/22/575822c5381ea91c21bfd2c69b359e24.png
+
+Din Tai Fung Logo img https://media-exp1.licdn.com/dms/image/C510BAQHRyIyQrLEbCQ/company-logo_200_200/0/1520486897669?e=2159024400&v=beta&t=9ip1JO4kcZwdvuMLhrtp1t9nLBIGTMv--GfcMJui_Sk
+
+Shake Shack Logo img https://www.newburystboston.com/site/wp-content/uploads/2016/09/Shake-Shack-Square-215x215.jpg
+
+Starbucks Logo img https://i.pinimg.com/originals/24/37/26/2437267491076f44c1a4f53b63bace72.jpg
+
 iPhone 12 Pro Max Featured <https://sc01.alicdn.com/kf/H683ed8e8611f45c7a9b87ed6962d17dbr.jpg_640x640.jpg>
 
 Leicester City Jersey Featured <https://www.soccerlord.se/wp-content/uploads/2018/10/Leicester-City-Home-Football-Shirt-20-21.jpg>
@@ -48,6 +52,16 @@ Keepall XS New <https://image5.brandear.jp/image1/0/34766823_1.jpg>
 Colosseum New <https://www.lego.com/en-us/product/colosseum-10276>
 
 Top Class Container New <https://images-na.ssl-images-amazon.com/images/I/61OG%2Bmmd0mL._SL1126_.jpg>
+
+Predator Freak 1 New https://www.futbolemotion.com/imagesarticulos/153056/grandes/bota-adidas-predator-freak-.1-fg-black-white-solar-yellow-2.jpg
+
+Adidas Cyberpunk New https://www.modern-notoriety.com/wp-content/uploads/2020/09/adidas-x9000l4-cyberpunk-2077-boost-shoes-purple-black-yellow-gold-release-date-price-2020-02.jpg
+
+Air Jordan 1 New https://cdn.shopify.com/s/files/1/0480/5433/7691/products/racerbluefront_1024x1024.jpg?v=1617953991
+
+Defender II duffle bag New https://i.pinimg.com/originals/c7/5b/ff/c75bff78be40fc3c35f89cacdbae451f.jpg
+
+Versa Tack Basketball New https://cf.shopee.com.my/file/329c4dd9d7adb5861db814203af90d47
 
 Apple Store <https://images.adsttc.com/media/images/5df2/5960/3312/fdaa/6a00/0177/newsletter/NY_Interior_2284_fp706720.jpg?1576163673>
 
