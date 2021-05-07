@@ -1,3 +1,33 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(Fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: "PoppinsReg";
+    src: url(Fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "PoppinsMed";
+    src: url(Fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: "PoppinsLightBold";
+    src: url(Fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Lobster";
+    src: url(Fonts/Lobster-Regular.ttf);
+}
+
+@font-face {
+    font-family: "PopsLight";
+    src: url(Fonts/Poppins-Light.ttf);
+}
+
 * {
     box-sizing: border-box;
 }
@@ -186,6 +216,10 @@ h1 {
     text-align: center;
 }
 
+.h-contain h1 {
+    font-family: "Poppins",sans-serif;
+}
+
 .form {
     max-width: 700px;
     width: 100%;
@@ -197,6 +231,7 @@ h1 {
 }
   
 .form .form-title {
+    font-family: "PoppinsLightBold", sans-serif;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 25px;
@@ -218,12 +253,14 @@ h1 {
     width: 200px;
     color: #333;
     margin-right: 10px;
+    font-family: "PoppinsReg", sans-serif;
     font-size: 16px;
 }
 
 .form .user-details .input-box .box {
     width: 30%;
     padding: 10px 10px;
+    font-family: "PoppinsLightBold", sans-serif;
     font-size: 15px; 
     border: 50px;
     background: gray;
@@ -245,8 +282,9 @@ input[type=reset], input[type=submit] {
     padding: 0px;
     background: #eb6359;
     text-align: center;
+    font-family: "PoppinsReg", sans-serif;
     font-size: 13px;
-    transition: all 0.5s ease; 
+    transition: all 0.5s ease;
 }
 
 /* Setting the footer */
@@ -271,6 +309,7 @@ footer .grid-contain .grid-item-1 {
 }
 
 footer .grid-contain .grid-item-1 .item-1-content {
+    font-family: "Poppins", sans-serif;
     text-align: center;
     margin-top: 15px;
 }
@@ -324,12 +363,14 @@ footer .grid-contain .grid-item-3 {
 }
 
 footer .grid-contain .grid-item-3 h3 {
+    font-family: "Poppins", sans-serif;
     text-align: center;
     font-size: 25px;
     margin-bottom: 20px;
 }
 
 footer .grid-contain .grid-item-3 p {
+    font-family: "PoppinsReg", sans-serif;
     text-align: left;
     margin: 0;
     font-size: 16px;
@@ -353,7 +394,7 @@ footer .grid-contain .grid-item-3 .address #detail-2 .fas {
 
 footer .grid-contain .grid-item-3 #detail-2 {
     margin-top: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "PoppinsReg", sans-serif;
 }
 
 footer ul {
@@ -415,7 +456,104 @@ footer .copyright {
 }
 
 footer .copyright p {
+    font-family: "PoppinsReg", sans-serif;
     margin-top: 0;
+}
+
+/* Cookies */
+.cookies-wrap {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.cookies-wrap.hide {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+}
+
+.cookies-pop-up {
+    position: relative;
+    left: 34.5%;
+    max-width: 500px;
+    background: #b49556;
+    padding: 15px 18px;
+    box-shadow: 2px 3px 5px 2px rgb(68, 68, 68), -2px -3px 5px 3px rgb(71, 71, 71);
+}
+
+.cookies-pop-up .cookies-content {
+    padding: 10px 12px;
+    background: #fff;
+}
+
+.cookies-pop-up .cookies-content h2 {
+    margin: 5px 0 0 0;
+    font-size: 23px;
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+}
+
+.cookies-pop-up .cookies-content p {
+    margin: 10px 0 18px 0;
+    font-family: "PoppinsReg", sans-serif;
+    font-size: 14px;
+}
+
+.cookies-pop-up .cookies-content a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.cookies-pop-up .cookies-content a:hover {
+    text-decoration: underline;
+}
+
+.cookies-pop-up .cookies-content a:visited {
+    color: purple;
+}
+
+.cookies-pop-up .cookies-content .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cookies-pop-up .cookies-content .buttons #accept:hover {
+    transform: translateY(-5px);
+    transition: all 0.5s;
+}
+
+.cookies-pop-up .cookies-content .buttons #decline:hover {
+    transform: translateY(-5px);
+    transition: all 0.5s;
+}
+
+.cookies-pop-up .cookies-content .buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    font-family: "PoppinsLightBold", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background: #c4a465;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.cookies-pop-up .cookies-content .buttons #accept {
+    background: rgb(38, 185, 38);
+}
+.cookies-pop-up .cookies-content .buttons #decline {
+    background: rgb(218, 60, 60);
 }
 
 /* Making the page responsive */
@@ -435,6 +573,12 @@ footer .copyright p {
     footer ul li .fa-linkedin-in {
         color: #0e76a8;
     }
+
+    /* Cookies */
+    .cookies-pop-up {
+        position: relative;
+        left: 25%;
+     }
 }
 
 @media screen and (max-width: 500px) {
@@ -637,4 +781,11 @@ footer .copyright p {
     footer .copyright {
         margin-top: 60px;
     } 
+
+    /* Cookies */
+    .cookies-pop-up {
+        position: relative;
+        left: 3.5%;
+        width: 350px;
+    }
 }
