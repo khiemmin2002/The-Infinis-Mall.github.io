@@ -191,33 +191,53 @@ html, body {
     width: 145px;
 }
 
-h1 {
-    font-family: "Poppins", sans-serif;
-}
-
 .featured {
     background-color: #355c7d;
+    width: 100%;
 }
 
 .featured-stores, .featured-products {
+    width: 100%;
     background-color: #355c7d;
     padding: 20px;
     display: flex;
     justify-content: center;
+}
+
+.slide-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #323232;
 }
 
 .new {
     background-color: #323232;
+    width: 100%;
 }
 
 .new-stores, .new-products {
+    width: 100%;
     background-color: #323232;
     padding: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    position: relative;
 }
 
-.store {
+.new-stores::-webkit-scrollbar, .new-products::-webkit-scrollbar {
+    display: none;
+}
+
+.slide-store1, .slide-store2 {
+    min-width: 232.75px;
+}
+
+.store, .slide-store1, .slide-store2 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -260,16 +280,22 @@ h1 {
     color: white;
 }
 
-.store:hover {
-    transform: translateY(-25px);
+.store:hover, .slide-store1:hover, .slide-store2:hover {
+transform: translateY(-25px);
 }
 
-.store:hover .brand {
+.store:hover .brand, .slide-store1:hover .brand, .slide-store2:hover .brand {
     opacity: 35%;
 }
 
-.store:hover .overlay {
+.store:hover .overlay, .slide-store1:hover .overlay, .slide-store2:hover .overlay {
     opacity: 100%;
+}
+
+.placeholder {
+    color: white;
+    font-size: 8.6px;
+    visibility: hidden;
 }
 
 h1 {
@@ -565,13 +591,23 @@ footer .copyright p {
         max-width: 100%;
     }
 
-    .store {
+    .store, .slide-store1, .slide-store2 {
         min-width: 200px;
         margin: 10px;
     }
 
+    .slide-store1, .slide-store2 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .overlay {
         font-size: 24px;
+    }
+
+    #duplicate-1, #duplicate-2, #duplicate-3, #duplicate-4, #duplicate-5,
+    #duplicate-6, #duplicate-7, #duplicate-8, #duplicate-9, #duplicate-10 {
+        display: none;
     }
 
     footer ul li .fa-facebook-f {
@@ -588,12 +624,6 @@ footer .copyright p {
 
     footer ul li .fa-linkedin-in {
         color: #0e76a8;
-    }
-
-    /* Cookies */
-    .cookies-pop-up {
-       position: relative;
-       left: 25%;
     }
 }
 
@@ -732,6 +762,11 @@ footer .copyright p {
         font-size: 20px;
     }
 
+    #duplicate-1, #duplicate-2, #duplicate-3, #duplicate-4, #duplicate-5,
+    #duplicate-6, #duplicate-7, #duplicate-8, #duplicate-9, #duplicate-10 {
+        display: none;
+    }
+
     footer .grid-contain {
         display: grid;
         grid-template-columns: 1fr;
@@ -786,11 +821,4 @@ footer .copyright p {
     footer .copyright {
         margin-top: 60px;
     } 
-
-    /* Cookies */
-    .cookies-pop-up {
-        position: relative;
-        left: 3.5%;
-        width: 350px;
-     }
 }
