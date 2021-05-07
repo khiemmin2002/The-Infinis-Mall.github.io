@@ -410,6 +410,15 @@ textarea {
     margin-top: 15px;
 }
 
+.form #error_message{
+    margin-bottom: 30px;
+    padding: 0px;
+    background: #eb6359;
+    text-align: center;
+    font-size: 13px;
+    transition: all 0.5s ease; 
+}
+
 /* Setting the footer */
 footer {
     overflow: hidden;
