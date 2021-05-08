@@ -14,6 +14,7 @@
         <meta property="og:description" content="#">
         <link rel="stylesheet" type="text/css" href="Apple.css" media="screen">
         <script src="https://kit.fontawesome.com/5143a5dc4e.js" crossorigin="anonymous"></script>
+        <link href="libs/toastr/build/toastr.min.css" rel="stylesheet" />
     </head>
 
     <body>
@@ -29,7 +30,7 @@
                         </form>
                     </div><!--Search-->
                 </div><!--Top Header-->
-                <nav class="main-menu">
+                <nav class="main-menu" style="position: relative;">
                     <a href="index.html" class="active">
                         <i class="fas fa-home"></i>
                     </a>
@@ -59,6 +60,12 @@
                             <a href="Registration.html">Join our family</a>
                         </div>
                     </div><!--Account (Dropdown)-->
+                    <div style="position: absolute; right: 20px; top: 2px; cursor: pointer; line-height: 0;">
+                        <a href="/Checkout.html">
+                            <span id="cart-quantity">0</span>
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+                    </div>
                 </nav>
                 <nav class="alt-menu">
                     <div class="side-nav">
@@ -168,7 +175,10 @@
                 </div><!--Content-->
             </div><!--Cookies-box-->
         </div><!--Cookies-wrap-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="libs/toastr/build/toastr.min.js"></script>
+        <script src="cookies.js"></script>
+        <script src="status.js"></script>
+        <script src="cart.js"></script>
     </body>
-    <script src="cookies.js"></script>
-    <script src="status.js"></script>
 </html>
