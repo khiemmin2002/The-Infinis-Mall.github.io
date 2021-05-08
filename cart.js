@@ -1,5 +1,3 @@
-console.log("cart js");
-
 toastr.options = {
     "closeButton": false,
     "debug": false,
@@ -35,17 +33,17 @@ function addToCart() {
     if (productItem.id) {
         cart.push(productItem);
         localStorage.setItem('cart', JSON.stringify(cart));
-        toastr["success"]("Thêm sản phẩm vào giỏ hàng thành công")
+        toastr["success"]("Item has been successfully added to cart!")
         cartQuantity.innerHTML = cart.length;
     }
     else {
-        toastr["warning"]("Vui lòng lựa chọn option cho sản phẩm");
+        toastr["warning"]("Please select a product option!");
     }
 }
 
 function saveToCart() {
-    toastr["warning"]("Please pick product");
-    toastr["success"]("Add product success")
+    toastr["warning"]("Please select a product!");
+    toastr["success"]("Product successfully added!")
 }
 
 const cartQuantityb = document.querySelector('#cart-quantity-b');
@@ -60,7 +58,6 @@ function showCart() {
         total += item.price;
     });
     cartTotal.innerHTML = format2(total, ' VND');
-
 }
 
 function generateCartItemHtml(items) {
@@ -73,7 +70,6 @@ function generateCartItemHtml(items) {
     }).join(" ")
 }
 
-
 function clearCart() {
     cart = [];
     localStorage.setItem('cart', JSON.stringify(cart));
@@ -84,20 +80,15 @@ function clearCart() {
 }
 
 function checkOut() {
-
 }
 
 if (window.location.href.indexOf('ThankYou') != -1) {
     clearCart();
 }
 
-
 if (window.location.href.indexOf('Checkout') != -1) {
     showCart();
 }
-
-
-
 
 function format2(n, currency) {
     return n.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + currency;

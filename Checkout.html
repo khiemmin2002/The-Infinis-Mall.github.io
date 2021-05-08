@@ -32,7 +32,7 @@
                 <!--Search-->
             </div>
             <!--Top Header-->
-            <nav class="main-menu" style="position: relative;">
+            <nav class="main-menu">
                 <a href="index.html">
                     <i class="fas fa-home"></i>
                 </a>
@@ -60,13 +60,13 @@
                         <i class="fas fa-user"></i>
                     </button>
                     <div class="dropdown-content">
-                        <a href="Login.html">Login</a>
+                        <a href="Login.html" class="login-account">Login</a>
                         <a href="Registration.html">Join our family</a>
                     </div>
                 </div>
                 <!--Account (Dropdown)-->
-                <div style="position: absolute; right: 20px; top: 2px; cursor: pointer; line-height: 0;">
-                    <a href="/Checkout.html">
+                <div style="display: block; float: right; margin-right: 10px;">
+                    <a href="Checkout.html">
                         <span id="cart-quantity">0</span>
                         <i class="fas fa-shopping-cart"></i>
                     </a>
@@ -101,7 +101,7 @@
                         <div class="drop">
                             <a href="javascript:void(0)">Account</a>
                             <div class="items">
-                                <a href="Login.html">Login</a>
+                                <a href="Login.html" class="login-account">Login</a>
                                 <a href="Registration.html">Join our family</a>
                             </div>
                         </div>
@@ -176,16 +176,13 @@
                     <h4>Cart
                         <span class="price" style="color:black">
                             <i class="fa fa-shopping-cart"></i>
-                            <b id="cart-quantity-b">4</b>
+                            <b id="cart-quantity-b"></b>
                         </span>
                     </h4>
                     <div id="cart-body">
-                        <p><a href="javascript:void(0)">Iphone 12 Pro Max</a><span class="price">29.990.000 VND</span>
-                        </p>
-
                     </div>
                     <hr>
-                    <p id="cart-total-b">Total <span class="price" style="color:black"><b>87.960.000 VND</b></span></p>
+                    <p id="cart-total-b">Total <span class="price" style="color:black"></span></p>
                     <div style="display: flex; justify-content: space-between; width: 100%; align-items:center;">
                         <a class="btn" href="ThankYou.html" role="button" >Place Order</a>
                         <button onclick="clearCart()" style="color: white; background-color: red; width: 30px; height: 30px; border: none; border-radius: 4px;"><i class="fas fa-times"></i></button>

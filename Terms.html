@@ -15,7 +15,7 @@
     <link rel="stylesheet" type="text/css" href="Terms.css" media="screen">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <script src="https://kit.fontawesome.com/5143a5dc4e.js" crossorigin="anonymous"></script>
-    <link href="libs/toastr/build/toastr.min.css" rel="stylesheet" />
+    <link href="libs/toastr/build/toastr.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -33,7 +33,7 @@
                 <!--Search-->
             </div>
             <!--Top Header-->
-            <nav class="main-menu" style="position: relative;">
+            <nav class="main-menu">
                 <a href="index.html">
                     <i class="fas fa-home"></i>
                 </a>
@@ -66,12 +66,11 @@
                     </div>
                 </div>
                 <!--Account (Dropdown)-->
-                <div class="dropdown">
-                    <button class="dropbtn">About Us</button>
-                    <div class="dropdown-content">
-                        <a href="About.html">The Mall</a>
-                        <a href="Members.html">Our Members</a>
-                    </div>
+                <div style="display: block; float: right; margin-right: 10px;">
+                    <a href="Checkout.html">
+                        <span id="cart-quantity">0</span>
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
                 </div>
             </nav>
             <nav class="alt-menu">

@@ -1,3 +1,33 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(Fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: "PoppinsReg";
+    src: url(Fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "PoppinsMed";
+    src: url(Fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: "PoppinsLightBold";
+    src: url(Fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Lobster";
+    src: url(Fonts/Lobster-Regular.ttf);
+}
+
+@font-face {
+    font-family: "PopsLight";
+    src: url(Fonts/Poppins-Light.ttf);
+}
+
 * {
     box-sizing: border-box;
 }
@@ -20,8 +50,8 @@ html, body {
     margin: 0;
 }
 
+/* Setting the header */
 /* Top Header */
-
 .topheader {
     position: static;
     height: 190px;
@@ -29,25 +59,8 @@ html, body {
     overflow: hidden;
 }
 
-#logo-img {
+.logo-img {
     float: left;
-    animation: rotateLogo linear forwards;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes rotateLogo {
-    0% {
-        transform: rotateY(0);
-    }
-
-    50% {
-        transform: rotateY(180deg);
-    }
-
-    100% {
-        transform: rotateY(360deg);
-    }
 }
 
 .topheader #search {
@@ -82,13 +95,18 @@ html, body {
 }
 
 /* Menu */
-nav {
+.main-menu {
     overflow: hidden;
     background-color: #b3965a;
     width: 100%;
 }
 
-nav a {
+.alt-menu {
+    display: none;
+}
+
+.main-menu a {
+    display: block;
     float: left;
     font-size: 16px;
     font-weight: 700;
@@ -115,7 +133,7 @@ nav a {
     margin: 0;
 }
   
-nav a:hover, .dropdown:hover .dropbtn {
+.main-menu a:hover, .dropdown:hover .dropbtn {
     background-color: white;
     color: #b3965a;
 }
@@ -137,11 +155,9 @@ nav a:hover, .dropdown:hover .dropbtn {
     0% {
         transform: rotateX(-90deg);
     }
-
     75% {
         transform: rotateX(40deg);
     }
-
     100% {
         transform: rotateX(0);
     }
@@ -165,11 +181,14 @@ nav a:hover, .dropdown:hover .dropbtn {
     display: block;
 }
 
-
-/* Setting active for the current page */
+/* Setting active status for the current page */
 .active {
     background-color: dodgerblue;
     color: white;
+}
+
+#special {
+    width: 145px;
 }
 
 /* Setting the content */
@@ -194,18 +213,25 @@ h1 {
     margin: 20px 10px 35px;
     padding-top: 10px;
     font-size: 25px;
+    text-align: center;
+}
+
+.h-contain h1 {
+    font-family: "Poppins",sans-serif;
 }
 
 .form {
     max-width: 700px;
     width: 100%;
     background: #fff;
-    margin: 50px auto;
     padding: 40px;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
   
 .form .form-title {
+    font-family: "PoppinsLightBold", sans-serif;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 25px;
@@ -227,45 +253,46 @@ h1 {
     width: 200px;
     color: #333;
     margin-right: 10px;
+    font-family: "PoppinsReg", sans-serif;
     font-size: 16px;
 }
 
 .form .user-details .input-box .box {
     width: 30%;
     padding: 10px 10px;
+    font-family: "PoppinsLightBold", sans-serif;
     font-size: 15px; 
     border: 50px;
-    background:  #c4a465;
+    background: gray;
     color: #fff;
     cursor: pointer;
-    border-radius: 20px;;
+    border-radius: 20px;
 }
 
-.form .user-details .store_owner{
-    margin-bottom: 30px;
-    padding: 0px;
-    background: #fff;
-    font-size: 15px;
+input[type=reset], input[type=submit] {
+    margin-left: 80px;
 }
 
+.form .user-details .input-box .box:hover {
+    background-color: red;
+}
 
 .form #error_message{
     margin-bottom: 30px;
     padding: 0px;
     background: #eb6359;
     text-align: center;
+    font-family: "PoppinsReg", sans-serif;
     font-size: 13px;
-    transition: all 0.5s ease; 
+    transition: all 0.5s ease;
 }
-
-
 
 /* Setting the footer */
 footer {
     overflow: hidden;
     background-color: black;
     color: #ffffff;
-    height: 320px;
+    height: auto;
 }
 
 /* Setting the grid */
@@ -282,6 +309,7 @@ footer .grid-contain .grid-item-1 {
 }
 
 footer .grid-contain .grid-item-1 .item-1-content {
+    font-family: "Poppins", sans-serif;
     text-align: center;
     margin-top: 15px;
 }
@@ -335,12 +363,14 @@ footer .grid-contain .grid-item-3 {
 }
 
 footer .grid-contain .grid-item-3 h3 {
+    font-family: "Poppins", sans-serif;
     text-align: center;
     font-size: 25px;
     margin-bottom: 20px;
 }
 
 footer .grid-contain .grid-item-3 p {
+    font-family: "PoppinsReg", sans-serif;
     text-align: left;
     margin: 0;
     font-size: 16px;
@@ -364,7 +394,7 @@ footer .grid-contain .grid-item-3 .address #detail-2 .fas {
 
 footer .grid-contain .grid-item-3 #detail-2 {
     margin-top: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "PoppinsReg", sans-serif;
 }
 
 footer ul {
@@ -426,11 +456,132 @@ footer .copyright {
 }
 
 footer .copyright p {
+    font-family: "PoppinsReg", sans-serif;
     margin-top: 0;
 }
 
+/* Cookies */
+.cookies-wrap {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.cookies-wrap.hide {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+}
+
+.cookies-pop-up {
+    position: relative;
+    left: 34.5%;
+    max-width: 500px;
+    background: #b49556;
+    padding: 15px 18px;
+    box-shadow: 2px 3px 5px 2px rgb(68, 68, 68), -2px -3px 5px 3px rgb(71, 71, 71);
+}
+
+.cookies-pop-up .cookies-content {
+    padding: 10px 12px;
+    background: #fff;
+}
+
+.cookies-pop-up .cookies-content h2 {
+    margin: 5px 0 0 0;
+    font-size: 23px;
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+}
+
+.cookies-pop-up .cookies-content p {
+    margin: 10px 0 18px 0;
+    font-family: "PoppinsReg", sans-serif;
+    font-size: 14px;
+}
+
+.cookies-pop-up .cookies-content a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.cookies-pop-up .cookies-content a:hover {
+    text-decoration: underline;
+}
+
+.cookies-pop-up .cookies-content a:visited {
+    color: purple;
+}
+
+.cookies-pop-up .cookies-content .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cookies-pop-up .cookies-content .buttons #accept:hover {
+    transform: translateY(-5px);
+    transition: all 0.5s;
+}
+
+.cookies-pop-up .cookies-content .buttons #decline:hover {
+    transform: translateY(-5px);
+    transition: all 0.5s;
+}
+
+.cookies-pop-up .cookies-content .buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    font-family: "PoppinsLightBold", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background: #c4a465;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.cookies-pop-up .cookies-content .buttons #accept {
+    background: rgb(38, 185, 38);
+}
+.cookies-pop-up .cookies-content .buttons #decline {
+    background: rgb(218, 60, 60);
+}
+
 /* Making the page responsive */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1200px) {
+    footer ul li .fa-facebook-f {
+        color: #3b5998;
+    }
+
+    footer ul li .fa-twitter {
+        color: dodgerblue;
+    }
+
+    footer ul li .fa-instagram {
+        color: palevioletred;
+    }
+
+    footer ul li .fa-linkedin-in {
+        color: #0e76a8;
+    }
+
+    /* Cookies */
+    .cookies-pop-up {
+        position: relative;
+        left: 25%;
+     }
+}
+
+@media screen and (max-width: 500px) {
     #search {
         display: none;
     }
@@ -474,12 +625,11 @@ footer .copyright p {
     
     .sub-menu {
         position: absolute;
-        right: -100%;
         width: 100%;
         text-align: right;
-        transition: 1s ease;
         z-index: 1;
         background-color: #b3965a;
+        display: none;
     }
 
     .sub-menu a {
@@ -487,7 +637,7 @@ footer .copyright p {
         font-size: 22px;
         color: white;
         text-decoration: none;
-        padding: 19px;
+        padding: 20px;
     }
 
     .sub-menu a:not(.empty):hover {
@@ -502,7 +652,7 @@ footer .copyright p {
     }
 
     #check:checked ~ .sub-menu {
-        right: 0;
+        display: block;
     }
 
     .drop {
@@ -522,7 +672,6 @@ footer .copyright p {
         animation: drop ease-in-out forwards;
         animation-duration: 1s;
         transform-origin: top center;
-        opacity: 0.6;
     }
 
     @keyframes drop {
@@ -543,7 +692,7 @@ footer .copyright p {
         color: white;
         font-size: 22px;
         padding: 20px;
-        text-align: left;
+        text-align: right;
         text-decoration: none;
     }
 
@@ -555,20 +704,27 @@ footer .copyright p {
     .drop:hover .items {
         display: block;
         width: 100%;
-    }   
-
-    .content {
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 700px;
     }
 
-    .login {
-        transform: translate(8%, 30%);
+    .main {
+        width: 100%;
     }
-    
-    footer {
-        height: auto;
+
+    .h-contain {
+        display: flex;
+        justify-content: center;
+    }
+
+    #country {
+        width: 150px;
+    }
+
+    .form .user-details .input-box .box {
+        width: 150px;
+    }
+
+    input[type=reset], input[type=submit] {
+        margin-left: 5px;
     }
 
     footer .grid-contain {
@@ -623,6 +779,13 @@ footer .copyright p {
     }
 
     footer .copyright {
-        margin-top: 65px;
+        margin-top: 60px;
+    } 
+
+    /* Cookies */
+    .cookies-pop-up {
+        position: relative;
+        left: 3.5%;
+        width: 350px;
     }
 }
