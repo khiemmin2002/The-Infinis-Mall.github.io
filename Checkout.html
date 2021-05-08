@@ -183,7 +183,11 @@
                     </div>
                     <br><br>
                     <hr>
-                    <p id="cart-total-b">Total <span class="price" style="color:black"></span></p>
+                    <div class="coupon-box">
+                        <input type="text" id="promo" maxlength="50" placeholder="Enter promo code">
+                        <button class="coupon-btn" onclick="discountCode()">Use</button>
+                    </div>
+                    <p id="cart-total-b"><span class="price" style="color:black"></span></p>
                     <div style="display: flex; justify-content: space-between; width: 100%; align-items:center;">
                         <a class="btn" href="ThankYou.html" role="button" >Place Order</a>
                         <button onclick="clearCart()" style="color: white; background-color: red; width: 30px; height: 30px; border: none; border-radius: 4px;"><i class="fas fa-times"></i></button>
@@ -233,4 +237,5 @@
 </body>
     <script src="libs/toastr/build/toastr.min.js"></script>
     <script src="cart.js"></script>
+    <script src="coupon.js"></script>
 </html>

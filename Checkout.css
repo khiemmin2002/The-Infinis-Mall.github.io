@@ -193,7 +193,7 @@ html, body {
 
 .row {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     margin-top: 20px;
     height: auto;
 }
@@ -251,7 +251,7 @@ label {
     color: white;
     padding: 12px;
     border: none;
-    width: 200px;
+    width: 115px;
     border-radius: 10px;
     cursor: pointer;
     font-size: 17px;
@@ -261,10 +261,36 @@ label {
 .btn:hover {
     background-color: #45a049;
 }
+
+#cart-total-b {
+    float: right;
+}
   
 span.price {
     float: right;
     color: grey;
+}
+
+.coupon-box {
+    margin: 0;
+    padding: 0;
+}
+
+#promo {
+    width: 200px;
+    margin: 0;
+}
+
+.coupon-btn {
+    font-size: 22px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    height: 40px;
+    padding: 5px 10px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
 }
 
 /* Setting the footer */
@@ -441,10 +467,6 @@ footer .copyright p {
 }
 
 @media (max-width: 1200px) {
-    .row {
-      flex-direction: column;
-    }
-
     .col-25 {
       margin-bottom: 20px;
     }
