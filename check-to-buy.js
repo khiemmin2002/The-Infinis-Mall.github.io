@@ -3,11 +3,9 @@ var addToCartBtn = document.getElementById("add");
 
 addToCartBtn.onclick = () => {
     if (sessionStorage.getItem("loginSuccessful")) {
-        return true;
     }
     else {
-        alert("You have to log in");
         addToCartBtn.href = "javascript:void(0)";
-        return false;
+        alert("You have to log in");
     }
 }
