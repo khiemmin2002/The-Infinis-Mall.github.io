@@ -862,6 +862,10 @@ footer .copyright p {
     .form .user-details .input-box .box {
         margin-left: 40px;
     }
+    
+    #error_message {
+        width: 365px;
+    }
 
     footer .grid-contain {
         display: grid;
