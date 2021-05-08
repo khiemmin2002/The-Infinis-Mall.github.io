@@ -252,6 +252,7 @@ label {
     padding: 12px;
     border: none;
     width: 115px;
+    margin-top: 30px;
     border-radius: 10px;
     cursor: pointer;
     font-size: 17px;
@@ -612,11 +613,11 @@ footer .copyright p {
         display: block;
         width: 100%;
     } 
-    
+
     .coupon-box {
         margin-bottom: 20px;
     }
-    
+
     #promo {
         margin-left: 10px;
     }
