@@ -1,3 +1,5 @@
+// config notification 
+
 toastr.options = {
     "closeButton": false,
     "debug": false,
@@ -16,17 +18,27 @@ toastr.options = {
     "hideMethod": "fadeOut"
 };
 
+// get element cart quantity 
 
 const cartQuantity = document.querySelector('#cart-quantity');
 
+// get cart from local storage
+
 let cart = localStorage.getItem('cart') ? JSON.parse(localStorage.getItem('cart')) : [];
+
+// show quantity of cart
+
 cartQuantity.innerHTML = cart.length;
 
 let productItem = {};
 
+// select option before pick product 
+
 function pickOption(item) {
     productItem = item;
 }
+
+//  action add to cart 
 
 function addToCart() {
     console.log(productItem)
@@ -46,9 +58,13 @@ function saveToCart() {
     toastr["success"]("Product successfully added!")
 }
 
+// get elements cart of checkout page
+
 const cartQuantityb = document.querySelector('#cart-quantity-b');
 const cartTotal = document.querySelector('#cart-total-b');
 const cartBody = document.querySelector('#cart-body');
+
+//  show cart detail checkout page
 
 function showCart() {
     cartBody.innerHTML = generateCartItemHtml(cart);
@@ -59,6 +75,8 @@ function showCart() {
     });
     cartTotal.innerHTML = format2(total, ' VND');
 }
+
+// generate one item 
 
 function generateCartItemHtml(items) {
     return items.map(item => {
@@ -82,13 +100,19 @@ function clearCart() {
 function checkOut() {
 }
 
+// check if curent page is thankyou, run function clearCart
+
 if (window.location.href.indexOf('ThankYou') != -1) {
     clearCart();
 }
 
+// check if curent page is Checkout, run function showCart
+
 if (window.location.href.indexOf('Checkout') != -1) {
     showCart();
 }
+
+// format price 
 
 function format2(n, currency) {
     return n.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + currency;
