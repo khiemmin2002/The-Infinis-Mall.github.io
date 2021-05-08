@@ -613,6 +613,12 @@ footer .copyright p {
     footer ul li .fa-linkedin-in {
         color: #0e76a8;
     }
+    
+    /* Cookies */
+    .cookies-pop-up {
+        position: relative;
+        left: 25%;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -803,5 +809,12 @@ footer .copyright p {
 
     footer .copyright {
         margin-top: 65px;
+    }
+    
+    /* Cookies */
+    .cookies-pop-up {
+        position: relative;
+        left: 3.5%;
+        width: 350px;
     }
 }
