@@ -711,6 +711,12 @@ footer .copyright p {
         top: 25%;
         width: 950px;
     }
+    
+    /* Cookies */
+    .cookies-pop-up {
+        position: relative;
+        left: 25%;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -909,7 +915,7 @@ footer .copyright p {
 
     /* Modal box */
     .modal-content {
-        width: 450px;
+        width: 350px;
         display: block;
     }
 
@@ -932,5 +938,12 @@ footer .copyright p {
         margin: auto;
         position: relative;
         top: 20px;
+    }
+    
+    /* Cookies */
+    .cookies-pop-up {
+        position: relative;
+        left: 3.5%;
+        width: 350px;
     }
 }
