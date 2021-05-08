@@ -612,6 +612,14 @@ footer .copyright p {
         display: block;
         width: 100%;
     } 
+    
+    .coupon-box {
+        margin-bottom: 20px;
+    }
+    
+    #promo {
+        margin-left: 10px;
+    }
 
     footer .grid-contain {
         display: grid;
